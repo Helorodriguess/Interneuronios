@@ -83,13 +83,10 @@
     padding: 2%;
 }
 
-.errada,
-.correta {
-    padding-left: 5%;
-}
-
 .classLabel {
     padding: 0.5%;
+    word-break: break-word;
+    display: flex;
 }
 
 label {
@@ -101,6 +98,7 @@ label {
     padding-left: 4%;
     padding-top: 1%;
     border-radius: 10px;
+    display: flex;
 }
 
 input[type='radio']:checked {

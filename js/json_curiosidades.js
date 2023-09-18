@@ -349,3 +349,5 @@ function anterior() {
     }
     console.log(i);
 }
+
+proximo();
