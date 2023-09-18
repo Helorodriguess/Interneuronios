@@ -746,7 +746,7 @@ function anterior() {
 
     i--;
     var doe = doencaDoComp.doencas;
-    if (i == -1) { // aqui dá erro
+    if (i === -1) { // aqui dá erro
         i = doe.length - 1;
     }
 
