@@ -1,0 +1,121 @@
+:root {
+  --main-bg-color: lightgreen;
+  --primary-color: green;
+  --secondary-color: darkgreen;
+  --menu-bg-color: #EBB7F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--primary-color);
+}
+
+a:visited {
+  color: var(--primary-color);
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+header#global_header {
+  text-align: center;
+  margin: 1rem 0;
+  display: flex;
+  padding: 0 0.5rem;
+}
+
+header#global_header h1 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+header#global_header #btn_menu:hover {
+  cursor: pointer;
+}
+
+footer#global_footer {
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+main#global_main {
+  position: relative;
+  width: 100%;
+  height: 98%;
+  justify-self: center;
+}
+
+aside#menu {
+  position: absolute;
+  float: left;
+  top: 0;
+  height: 100%;
+  min-width: 60%;
+  max-width: 80%;
+  background-color: var(--menu-bg-color);
+  transition: visibility 0.5s linear, opacity 0.5s linear;
+  visibility: hidden;
+  opacity: 0;
+  padding: 1rem;
+}
+
+aside#menu ul {
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+aside#menu h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+aside#menu ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+aside#menu.opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+footer#global_footer img,
+header#global_header img,
+main#global_main aside#menu img {
+  width: 2rem;
+  height: 2rem;
+}

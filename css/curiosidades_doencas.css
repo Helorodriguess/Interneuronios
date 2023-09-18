@@ -1,0 +1,91 @@
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #CA9CFA;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #CA9CFA;
+    border-radius: 10px;
+    border: 1px solid #CA9CFA;
+}
+
+.curiosidades_doencas {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+#div_text {
+    background-color: #F7D5FA;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 40px;
+    overflow: auto;
+
+}
+
+.title {
+    width: 90vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron:hover {
+    cursor: pointer;
+}
+
+#titulo {
+    width: 100vw;
+    margin: solid 1px red;
+    margin: 0 auto;
+}
+
+#div_text {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    text-align: justify;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+.link {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    font-style: italic;
+}
+
+.link a {
+    color: blue;
+}
+
+.titulo,
+.title,
+.topico {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.topico {
+    padding: 6px;
+}

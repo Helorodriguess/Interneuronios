@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interneurônios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" href="css/css_especifico.css" />
+    <link rel="stylesheet" href="css/desafios_questoes_saude.css" />
+    <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header id="global_header">
+        <a id="btn_menu" href="javascript:void(0)">
+            <img src="img/menu.svg" alt="Voltar" id="show_menu" />
+        </a>
+        <h1>Questões</h1>
+    </header>
+
+    <main id="global_main">
+        <aside id="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li>
+                    <a href="questoes.html">
+                        <img src="img/question.svg" alt="Questões" />
+                        Questões
+                    </a>
+                </li>
+                <li>
+                    <a href="desafios.html">
+                        <img src="img/puzzle.svg" alt="Desafios" />
+                        Desafios
+                    </a>
+                </li>
+                <li>
+                    <a href="saude_mental.html">
+                        <img src="img/saude.svg" alt="Saúde Mental" />
+                        Saúde Mental
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/anexo.svg" alt="Apostila" />
+                        Apostila
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="main_div">
+            <div id="questao"></div>
+        </div>
+
+        <dialog id="modal">
+            <p>Resposta</p>
+            <hr>
+            <div id="modalContent">
+
+            </div>
+            <hr>
+            <div class="btnM">
+                <button onclick="fecharModal()" class="btnModel">Fechar</button>
+            </div>
+        </dialog>
+    </main>
+
+    <footer id="global_footer">
+        <img src="img/back.svg" alt="Voltar" id="go-back" />
+        <a href="index.html">
+            <img id="ico_home" src="img/home.svg" alt="Página inicial" />
+        </a>
+        <a href="http://ifpr.edu.br">
+            <img id="ico_info" src="img/information.svg" alt="Tutorial" />
+        </a>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/fun_questoes.js"></script>
+</body>
+<script src="js/json_questoes.js"></script>
+
+</html>

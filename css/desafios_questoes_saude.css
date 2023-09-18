@@ -1,0 +1,191 @@
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #CA9CFA;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #CA9CFA;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#desafio {
+    height: 70vh;
+    overflow: auto;
+    display: block;
+    text-align: justify;
+}
+
+#saude_mental {
+    height: 70vh;
+    overflow: auto;
+    display: block;
+    text-align: justify;
+}
+
+#questao {
+    height: 70vh;
+    overflow: auto;
+    display: block;
+    text-align: justify;
+}
+
+
+.nome {
+    height: 10vh;
+    padding: 3.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.comando {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.link {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    font-style: italic;
+
+}
+
+.link a {
+    color: blue;
+}
+
+.btn {
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: #F7D5FA;
+    border: none;
+    font-family: 'Poppins', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.divBtn {
+    padding: 2%;
+}
+
+.errada,
+.correta {
+    padding-left: 5%;
+}
+
+.classLabel {
+    padding: 0.5%;
+}
+
+label {
+    padding: 10px
+}
+
+.alt {
+    padding: 0.5%;
+    padding-left: 4%;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+input[type='radio']:checked {
+    border-color: #ac70f9;
+}
+
+input[type='radio']:checked {
+    background: #ac70f9;
+}
+
+dialog {
+    width: 40vw;
+    margin: 0 auto;
+    background-color: #F7D5FA;
+    border: #ac70f9;
+}
+
+#modal p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    padding: 6px;
+}
+
+.btnM {
+    width: 39vw;
+    text-align: end;
+}
+
+#modalContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F7D5FA;
+    width: 39vw;
+    height: 35vh;
+    padding: 5px;
+    text-align: justify;
+    font-size: medium;
+    line-height: 2;
+    overflow: auto;
+}
+
+.btnModel {
+    width: 8vw;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: #CA9CFA;
+    border: none;
+    font-family: 'Poppins', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 1%;
+    cursor: pointer;
+    margin: 4px;
+}
+
+
+.red+label {
+    transition: all 0.5s ease-in-out;
+    background-color: #FFBEBE !important;
+    border: solid 1px #CB4D32;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.green+label {
+    transition: all 0.5s ease-in-out;
+    background-color: #B8ECC3 !important;
+    border: solid 1px #7BF600;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+input::before {
+    background-color: #ac70f9;
+}
+
+input[type=radio]:checked {
+    color: black;
+}

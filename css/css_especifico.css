@@ -1,0 +1,79 @@
+:root {
+  --main-bg-color: #CA9CFA;
+  --primary-color: black;
+  --secondary-color: darkgray;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #CA9CFA;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #CA9CFA;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+h1 {
+  color: black;
+}
+
+.main_div {
+  width: 90vw;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: auto;
+}
+
+#main_img img {
+  width: 13vw;
+}
+
+#main_buttons div {
+  padding: 0.7%;
+}
+
+
+#main_button {
+  width: 20vw;
+  height: 8vh;
+  border-radius: 22px;
+  background-color: #F7D5FA;
+  border: none;
+  font-family: 'Poppins', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+
+#main_button:hover {
+  cursor: pointer;
+}
+
+#main_button img {
+  width: 2vw;
+}
+
+.mainText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 85vw;
+  height: 50;
+  padding: 5%;
+  text-align: justify;
+  font-size: medium;
+  line-height: 2;
+}
+
+#go-back {
+  cursor: pointer;
+}

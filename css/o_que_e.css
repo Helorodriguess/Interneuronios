@@ -1,0 +1,35 @@
+.o_que_e {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+
+#titulo {
+    width: 100vw;
+    margin: solid 1px red;
+    margin: 0 auto;
+}
+
+#div_text {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.link {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    font-style: italic;
+
+}
+
+.link a {
+    color: blue;
+}
