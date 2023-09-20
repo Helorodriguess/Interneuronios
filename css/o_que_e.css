@@ -33,3 +33,18 @@
 .link a {
     color: blue;
 }
+
+.div_o_que_e {
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.img_o_que_e {
+    max-width: 250px;
+    cursor: pointer;
+}
+
+.div_o_que_e p {
+    padding: 2%;
+}

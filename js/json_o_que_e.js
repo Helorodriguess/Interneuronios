@@ -38,7 +38,14 @@ const componentes = [
         id: 'cerebro',
         nome: 'Cérebro',
         texto: 'É a porção que preenche a maior parte da cavidade craniana. Seus dois hemisférios são ligados pelo corpo caloso (estrutura diferenciada, formada por axônios que cruzam o cérebro de um lado para o outro).  Tal estrutura permite a comunicação e cooperação entre os dois hemisférios, sendo que cada um destes é dividido em quatro lobos: frontal, parietal, temporal e occipital. A superfície do cérebro humano é enrugada, o grau de dobramento está diretamente relacionado ao nível de capacidade de processamento do encéfalo. A substância cinzenta cerebral é a parte do cérebro formada por  neurônios e dendritos,fica localizada na superfície do cérebro e do cerebelo, assim constituindo o córtex cerebral,camada externa do cérebro, na qual as funções encefálicas superiores se originan,os núcleos de bases que participam do controle do movimento. Sistema límbico que é a região mais primitiva do cérebro, atua como uma ligação entre as funções cognitivas superiores (raciocínio e respostas emocionais primitivas). Suas principais partes são as amígdalas e o giro do cíngulo, relacionadas a emoção e a memória, e o hipocampo, ao aprendizado e a memória.  O córtex cerebral e os núcleos de base formam as substâncias cinzentas do cérebro. As substâncias brancas encontram-se no interior do cérebro, onde existem fibras que, por meio do corpo caloso, se comunicam. As informações que entram e saem do cérebro passam pelo tálamo.',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/cerebro/cerebro/cerebro.png',
+            legenda: 'Figura 1: Cérebro'
+        },
+        {
+            url: 'img/cerebro/cerebro/massacinzenta.png',
+            legenda: 'Figura 2: Massa Cinzenta'
+        }],
         links: ['https://youtu.be/xx8dKwRtvM8?si=ROcpmxQm1OLKrYIm']
     },
     {
@@ -137,12 +144,17 @@ for (let componente of componentes) {
         <div class="texto">${componente.texto}</div>
     `;
 
-        for (let imagem of componente.imagens) {
-            div_o_que_e.innerHTML += `<img src="${imagem}" class="img_o_que_e"/>`
-        }
-
         for (let link of componente.links) {
             div_o_que_e.innerHTML += ` <p class="link">&#9679 <a href = "${link}"</a> ${link}</p >`
         }
+
+        for (let imagem of componente.imagens) {
+            div_o_que_e.innerHTML +=
+                `<div class="div_o_que_e">
+                <p>${imagem.legenda}</p>
+            <img src="${imagem.url}" class="img_o_que_e" title="${imagem.legenda}"/>
+            </div>`
+        }
+
     }
 }

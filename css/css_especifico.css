@@ -32,7 +32,8 @@ h1 {
 }
 
 #main_img img {
-  width: 13vw;
+  width: 16vw;
+  padding: 2%;
 }
 
 #main_buttons div {
@@ -76,4 +77,20 @@ h1 {
 
 #go-back {
   cursor: pointer;
+}
+
+.main_button_div {
+  display: flex;
+  width: 20vw;
+  align-items: center;
+  justify-items: center;
+}
+
+.main_button_text {
+  width: 17vw;
+  border-right: solid 1px black;
+}
+
+.main_button_img {
+  width: 4vw;
 }
