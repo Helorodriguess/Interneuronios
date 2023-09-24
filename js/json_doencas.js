@@ -329,7 +329,7 @@ const doencas = [
                         texto: 'O diagnóstico é feito por meio de exames de imagem, sendo o padrão-ouro a RM de crânio. O tratamento é feito com radioterapia e não costuma incluir cirurgia, haja visto que possui alta taxa de complicação devido a localização do tronco encefálico e as funções corporais que controla.'
                     },
                 ],
-                links: ['https://www.pipop.info/uma-nova-esperanca-para-o-tratamento-do-glioma-pontino-intrinseco-difuso/', 'https://ninho.inca.gov.br/jspui/bitstream/123456789/11258/1/TCC_reirrad_corrigido.pdf', 'https://www.pipop.info/o-que-os-pais-precisam-de-saber-acerca-do-glioma-pontino-intrinseco-difuso/#:~:text=O%20glioma%20pontino%20intr%C3%ADnseco%20difuso,%C3%A9%20fatal%20e%20extremamente%20agressivo']
+                links: ['https://www.pipop.info/uma-nova-esperanca-para-o-tratamento-do-glioma-pontino-intrinseco-difuso/', 'https://ninho.inca.gov.br/jspui/bitstream/123456789/11258/1/TCC_reirrad_corrigido.pdf', 'https://www.pipop.info/o-que-os-pais-precisam-de-saber-acerca-do-glioma-pontino-intrinseco-difuso/']
             }
         ]
     },
@@ -624,7 +624,7 @@ const doencas = [
         ]
     },
     {
-        id: 'sps',
+        id: 'sns',
         nome: 'Sistema Nervoso Somático',
         doencas: [
             {

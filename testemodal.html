@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="abrirModal()">abrir modal</button>
+    <dialog id="myModal">
+        <div id="m1" class="modal active">
+            <p>modal 1</p>
+            <button onclick="proximoModal('m2')">modal 2</button>
+        </div>
+        <div id="m2" class="modal">
+            <p>modal 2</p>
+            <button onclick="proximoModal('m3')">modal 3</button>
+        </div>
+        <div id="m3" class="modal">
+            <p>modal 3</p>
+            <button onclick="fecharModal()">fechar</button>
+        </div>
+    </dialog>
+    <script>
+        function abrirModal() {
+            document.getElementById("myModal").showModal();
+        }
+
+        function proximoModal(idModal) {
+            document.querySelectorAll(".modal").forEach((el) => {
+                if (el.classList.contains('active')) {
+                    el.classList.remove("active")
+                }
+            });
+            document.getElementById(idModal).classList.add("active")
+        }
+        function fecharModal() {
+            document.querySelectorAll(".modal").forEach((el) => {
+                if (el.classList.contains('active')) {
+                    el.classList.remove("active")
+                }
+            });
+            document.getElementById('m1').classList.add("active")
+            document.getElementById("myModal").close();
+
+        }
+    </script>
+    <style>
+        .modal {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+</body>
+
+</html>

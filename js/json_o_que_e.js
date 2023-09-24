@@ -3,14 +3,45 @@ const componentes = [
         id: 'neuronio',
         nome: 'Neurônio',
         texto: 'Os neurônios (Fig.1) são as células responsáveis pela condução de impulsos nervosos, também chamados de pulsos elétricos. É formado pelo corpo celular, que constitui a maior parte do neurônio e abriga o núcleo e a maior parte do citoplasma, e por prolongamentos denominados neurofibras, que formam os dendritos e axônios. O axônio costuma ser longo e ramificado apenas nas suas extremidades, já os dendritos são curtos e bem ramificados. Essas estruturas conduzem os impulsos nervosos até outras células, a fim de coordenar funções corporais. Para que isso ocorra, os dendritos captam os estímulos nervosos vindos de uma outra estrutura e os manda para o corpo celular, que interpreta esses impulsos e os envia para o axônio, o qual terá o papel de transmitir estas informações a um outro neurônio. Os neurônios são classificados quanto à função que desempenham, eles podem ser: 1. Sensoriais: são responsáveis pela condução de informações provenientes do ambiente externo, tais como estímulos de temperatura, luz e pressão, em direção ao SNC. 2. Interneurônios ou neurônios interconectores: são aqueles que estão dentro do SNC, geralmente são bem pequenos e desempenham a função de estabelecer comunicação entre neurônios. 3. Neurônios eferentes, motores somáticos e autonômicos: neurônios cujos axônios se unem ao tecido conectivo e forma os nervos. Os nervos podem ser sensoriais, motores (movimento) ou mistos.',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/neuronio/neuronio1.png',
+            legenda: 'Figura 1: Neurônio'
+        },
+        {
+            url: 'img/neuronio/neuronio2.png',
+            legenda: 'Figura 2: Neurônio'
+        },
+        {
+            url: 'img/neuronio/neuronio3.png',
+            legenda: 'Figura 3: Tipos de Neurônio'
+        },
+        {
+            url: 'img/neuronio/neuronio4.png',
+            legenda: 'Figura 4: Tipos de Neurônio'
+        },
+        {
+            url: 'img/neuronio/neuronio5.png',
+            legenda: 'Figura 5: Atuação dos Neurônios'
+        },
+        ],
         links: ['https://youtu.be/XsLNJSshq34?si=s6wcKiT0VU0HTLEN']
     },
     {
         id: 'glia',
         nome: 'Célula da glia',
         texto: 'Os gliócitos ou células gliais têm por função auxiliar, proteger e nutrir os neurônios. Eles atuam fornecendo suporte físico e bioquímico aos neurônios, além de auxiliar na sua manutenção, reparo e desenvolvimento. Dentre as células gliais estão os oligodendrócitos e as células de Schwann, responsáveis por formar o estrato mielínico ao redor das neurofibras. Existem outros tipos de gliócitos, como os astrócitos e as micróglias (Veja as funções deles aqui: Curiosidades: Mielina).',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/glia/glia1.png',
+            legenda: 'Figura 1: Célula de Schwann'
+        },
+        {
+            url: 'img/glia/glia2.png',
+            legenda: 'Figura 2: Tipos de gliócitos'
+        },
+        {
+            url: 'img/glia/glia3.png',
+            legenda: 'Figura 3: Formação da bainha de mielina'
+        },],
         links: ['https://www.youtube.com/watch?v=GgeWnbXk5Xs', 'https://youtu.be/u2VGb9Gzs7A?si=iZqVQnVOnIRdnypj', 'https://youtu.be/wZTaapT49qA?si=FvZqLRGL6S0TajR1']
     },
     {
@@ -45,7 +76,12 @@ const componentes = [
         {
             url: 'img/cerebro/cerebro/massacinzenta.png',
             legenda: 'Figura 2: Massa Cinzenta'
-        }],
+        },
+        {
+            url: 'img/cerebro/cerebro/cerebrox.png',
+            legenda: 'Figura 3: Estímulos'
+        },
+        ],
         links: ['https://youtu.be/xx8dKwRtvM8?si=ROcpmxQm1OLKrYIm']
     },
     {
@@ -59,7 +95,23 @@ const componentes = [
         id: 'medula',
         nome: 'Medula Espinal',
         texto: 'A medula espinal, que possui a forma de um cordão cilíndrico, é a principal via de fluxo de informações entre o encéfalo e a pele, articulações e músculos, ou seja, é um tipo de estação nervosa transmissora. Assim, as informações que chegam até a medula espinal são encaminhadas ao encéfalo pela mesma; o mesmo ocorre com as ordens dadas pelo encéfalo, que passam pela medula antes de chegarem no seu destino. A medula espinal também é capaz de elaborar respostas simples a certos estímulos, sem que estes passem pelo encéfalo. Dessa maneira, é responsável por ordenar respostas rápidas em situações de emergência; quando, por exemplo, tocamos em algo muito quente, a medula envia uma resposta medular para que uma atitude seja tomada antes mesmo de se ter uma resposta do cérebro. Também é na medula espinal que se encontram as redes neurais que atuam na locomoção, por isso, caso tal estrutura seja rompida, ocorre a paralisia (incapacidade de controlar os músculos do corpo voluntariamente). A medula espinal é dividida em quatro partes: cervical, torácica, lombar e sacral. Cada parte possui diversos segmentos, dos quais surge um par bilateral de nervos espinais. Na medula espinhal, a parte de dentro possui muitos corpos celulares dos neurônios, por isso, a cor acinzentada; já no restante é onde há uma maior concentração de neurofibras (axônios e dendritos), o que explica a cor branca (devido à bainha de mielina).A raiz dorsal possui fibras sensoriais que fazem sinapse com interneurônios dos cornos dorsais da substância cinzenta (partes posteriores da matéria cinzenta da medula). Os cornos celulares têm o corpo celular organizado em dois núcleos distintos, um para informações somáticas e outro para viscerais. Os cornos ventrais da substância branca contém corpos celulares de neurônios motores, que trocam sinais com músculos e glândulas. Seus núcleos são motores somáticos e autonômicos. A substância branca pode ser dividida em diversas colunas formadas por trato de axônios, responsáveis por transmitir informações na extensão da medula. Os tratos ascendentes conduzem informações sensoriais para o encéfalo, enquanto os tratos descendentes conduzem sinais eferentes do encéfalo para a medula.',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/medula/medula1.png',
+            legenda: 'Figura 1: Atuação da Medula Espinal'
+        },
+        {
+            url: 'img/medula/medula2.png',
+            legenda: 'Figura 2: Medula Espinal'
+        },
+        {
+            url: 'img/medula/medula3.png',
+            legenda: 'Figura 3: Medula Espinal'
+        },
+        {
+            url: 'img/medula/medula4.png',
+            legenda: 'Figura 4: Partes da Medula Espinal'
+        },
+        ],
         links: ['']
     },
     {
@@ -80,8 +132,16 @@ const componentes = [
         id: 'ponte',
         nome: 'Ponte',
         texto: 'A ponte é formada por fibras nervosas que ligam o córtex cerebral ao cerebelo e está localizada entre o bulbo e o mesencéfalo. Essa estrutura possui centros nervosos que coordenam a movimentação dos olhos, do pescoço e de outras partes do corpo, e também está relacionada à postura corporal e ao equilíbrio do corpo, além de auxiliar no controle da respiração, do sono e do controle da bexiga.A ponte, juntamente com o bulbo e o mesencéfalo formam o tronco encefálico. Essa estrutura é um ponto de sinapse de alguns tratos e um ponto de partida de nervos periféricos, além de ser o local de origem de onze pares de nervos cranianos (nervos que carregam informações sensoriais e motoras relativas à cabeça e ao pescoço). O tronco encefálico é formado contém inúmeros grupos de células nervosas, os núcleos. Estes estão associados à formação reticular (neurônios que se estendem por todo o tronco encefálico) e estão envolvidos em processos básicos, como sono e vigília, tônus muscular, reflexo de estiramento, coordenação da respiração, regulação da pressão arterial e modulação da dor.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [{
+            url: 'img/ponte/tronco1.jpg',
+            legenda: 'Figura 1: Tronco Encefálico'
+        },
+        {
+            url: 'img/ponte/tronco2.jpg',
+            legenda: 'Figura 2: Tronco Encefálico'
+        },
+        ],
+        links: ['https://youtu.be/ITCuY-sPTiY?si=fTAG99VBUdqwpYcT']
     },
     {
         id: 'talamo',
@@ -94,7 +154,18 @@ const componentes = [
         id: 'arco',
         nome: 'Arco Reflexo',
         texto: 'Em alguns casos nosso corpo necessita de uma resposta rápida para agir. As respostas rápidas produzidas pela medula espinal, sem que passem pelo encéfalo para serem formuladas, são chamadas de Respostas Reflexas Medulares ou Arco Reflexos e fazem função de enviar respostas "emergenciais". Nesse tipo de resposta um neurônio sensitivo leva o impulso até a medula espinal, o estímulo passa pelo neurônio associativo, que faz a retransmissão para o encéfalo e para o neurônio motor. O neurônio motor coordena a ação reflexa, e o envio do estímulo ao encéfalo permite a tomada de consciência do ocorrido.',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/arco/arco0.png',
+            legenda: 'Figura 1: Arco Reflexo'
+        },
+        {
+            url: 'img/arco/arco1.png',
+            legenda: 'Figura 2: Reflexo patelar'
+        },
+        {
+            url: 'img/arco/arco2.png',
+            legenda: 'Figura 3: Reflexo patelar'
+        },],
         links: ['https://youtu.be/5e_1mhGSDeA?si=WwgYv-lrNTD-hwbd', 'https://youtu.be/Exg9LFdBzKY?si=-H6Zj85BRn1MoDGB ']
     },
     {
@@ -108,7 +179,18 @@ const componentes = [
         id: 'espinal',
         nome: 'Nervo Espinal',
         texto: 'Os nervos são estruturas constituídas por neurofibras que têm origem no encéfalo e na medula espinal e atingem diversas partes do corpo. Eles podem ser classificados de acordo com a função desempenhada como: sensitivos, motores e mistos. Os nervos sensitivos, ou aferentes, são aqueles que levam os impulsos das células para o sistema nervoso central. Já os nervos motores, ou eferentes, são os responsáveis por enviar os impulsos do sistema nervoso central para os músculos. Enquanto os nervos mistos são compostos por neurofibras de neurônios sensitivos e neurônios motores, então, desempenham as funções dos nervos sensitivos e nervos motores. Os nervos espinais ou raquidianos são aqueles que conectam a medula espinal a células sensoriais e músculos. Entre as vértebras existem espaços pelos quais esses nervos ligam-se à medula espinal, e em cada espaço há um par de nervos espinais a essa por dois conjuntos de fibras nervosas, as raízes. Um conjunto parte da região dorsal da medula e o outro da região ventral.  A raiz dorsal é formada por neurônios sensitivos responsáveis por conduzir impulsos nervosos de órgãos sensitivos até o sistema nervoso central. A raiz ventral é formada por neurônios motores, responsáveis por conduzir impulsos nervosos do sistema nervoso central aos músculos. Na raiz dorsal de cada nervo espinal há um gânglio nervoso no qual estão os corpos celulares de neurônios sensitivos. Existem 31 pares de nervos espinais. Eles são divididos em: 8 pares de Nervos Cervicais, 12 pares de Nervos Torácicos, 5 pares de Nervos Lombares, 5 pares de Nervos Sacrais,1  par de Nervos Coccígeos. Nos nervos existem os gânglios nervoso, estes são um conjunto de neurônios, em especial de corpos celulares, que formam pequenas dilatações em alguns nervos, as quais ficam localizadas no sistema nervoso periférico somáticos e autonômicos, próximo a coluna vertebral. Eles funcionam como estações de interligação entre os neurônios e as estruturas do corpo.  Existem 23 pares de gânglios nervosos. Eles são divididos em:  3 pares de Nervos Cervicais ;12 pares de Nervos Torácicos ;4 pares de Nervos Lombares ; 4 pares de Nervos Sacrais ; 1 gânglio ímpar que vai do pescoço ao cóccix.',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/espinal/espinal1.png',
+            legenda: 'Figura 1: Nervo Espinal'
+        },
+        {
+            url: 'img/medula/medula2.png',
+            legenda: 'Figura 2: Raízes'
+        },
+        {
+            url: 'img/espinal/espinal2.png',
+            legenda: 'Figura 3: Nervos Espinais'
+        },],
         links: ['https://www.kenhub.com/pt/library/anatomia/ganglios-nervosos']
     },
     {
@@ -119,7 +201,7 @@ const componentes = [
         links: ['']
     },
     {
-        id: 'spm',
+        id: 'sns',
         nome: 'Sistema Nervoso Somático',
         texto: 'O sistema nervoso periférico somático é responsável por coordenar as ações que realizamos de forma consciente, ou seja, as ações voluntárias. Essas ações são resultado das contrações dos músculos estriados esqueléticos. O sistema nervoso periférico somático tem ramos sensitivos, que levam informações e estímulos do ambiente externo e interno ao SNC, e motores, que conduzem impulsos do SNC aos músculos estriados esqueléticos. Os nervos motores do SNP somático possuem os corpos celulares dos neurônios que o constitui dentro do sistema nervoso central e as extremidades (dos dendritos e axônios) se encontram nos músculos que serão controlados; enquanto nos nervos sensoriais os corpos celulares ficam nos gânglios próximos à medula e as fibras enviam impulsos até a medula ou até o encéfalo.',
         imagens: ['', ''],
@@ -149,11 +231,14 @@ for (let componente of componentes) {
         }
 
         for (let imagem of componente.imagens) {
+            var url = ''
+            url = imagem.url;
             div_o_que_e.innerHTML +=
                 `<div class="div_o_que_e">
                 <p>${imagem.legenda}</p>
-            <img src="${imagem.url}" class="img_o_que_e" title="${imagem.legenda}"/>
+            <img src="${imagem.url}" class="img_o_que_e" title="${imagem.legenda}" onclick="exibirModal(${url})"/>
             </div>`
+
         }
 
     }

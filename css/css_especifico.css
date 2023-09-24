@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
 :root {
   --main-bg-color: #CA9CFA;
   --primary-color: black;
@@ -20,6 +24,7 @@
 
 h1 {
   color: black;
+  font-family: 'Nunito', sans-serif;
 }
 
 .main_div {
@@ -47,7 +52,7 @@ h1 {
   border-radius: 22px;
   background-color: #F7D5FA;
   border: none;
-  font-family: 'Poppins', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: medium;
   font-weight: bold;
   text-decoration: none;

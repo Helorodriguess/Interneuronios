@@ -2,12 +2,12 @@ const componentesOp = [
     {
         id: 'neuronio',
         nome: 'Neurônio',
-        imagem: ''
+        imagem: 'img/neuronio/neuronio0.png'
     },
     {
         id: 'glia',
         nome: 'Célula da glia',
-        imagem: ''
+        imagem: 'img/glia/glia2.png'
     },
     {
         id: 'sinapse',
@@ -37,7 +37,7 @@ const componentesOp = [
     {
         id: 'medula',
         nome: 'Medula Espinal',
-        imagem: ''
+        imagem: 'img/medula/medula0.png'
     },
     {
         id: 'meninge',
@@ -52,7 +52,7 @@ const componentesOp = [
     {
         id: 'ponte',
         nome: 'Ponte',
-        imagem: ''
+        imagem: 'img/ponte/tronco0.png'
     },
     {
         id: 'talamo',
@@ -62,7 +62,7 @@ const componentesOp = [
     {
         id: 'arco',
         nome: 'Arco Reflexo',
-        imagem: ''
+        imagem: 'img/arco/arco0.png'
     },
     {
         id: 'ganglio',
@@ -77,7 +77,7 @@ const componentesOp = [
     {
         id: 'espinal',
         nome: 'Nervo Espinal',
-        imagem: ''
+        imagem: 'img/espinal/espinal3.png'
     },
     {
         id: 'sna',
@@ -85,7 +85,7 @@ const componentesOp = [
         imagem: ''
     },
     {
-        id: 'sps',
+        id: 'sns',
         nome: 'Sistema Nervoso Somático',
         imagem: ''
     },

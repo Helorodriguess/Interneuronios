@@ -73,6 +73,11 @@ const desafios = [
         desafio: 'Desafio XV',
         comando: 'Com base no que você aprendeu sobre neurotransmissores, realize um debate com seus colegas sobre: É possível que alguém não possua nenhum deles? Discuta sua percepção sobre o assunto e monte uma tabela dos principais neurotransmissores.',
         links: []
+    },
+    {
+        desafio: 'Desafio XVI',
+        comando: 'Os filmes citados abaixo abordam doenças neurológicas. Escolha um deles, assista e discuta em sala de aula: como é a inserção dessas pessoas na sociedade? Elas têm a assistência médica e familiar adequada? Há algum estereótipo retratado? Há estudos recentes sobre os problemas mostrados no filme? Como essas doenças foram percebidas e julgadas ao longo da história da humanidade? É possível que exista atitudes coletivas que contribuam de forma positiva no cotidiano dessas pessoas? Filmes: Para sempre Alice; A teoria de tudo; Farol das orcas; Amor e outras drogas; Forrest Gump.',
+        links: ['https://vidaplenaebemestar.com.br/inspiracao/5-filmes-da-netflix-que-abordam-doencas-neurologicas']
     }
 ]
 

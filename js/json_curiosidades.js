@@ -277,7 +277,7 @@ const curiosidades = [
         ],
     },
     {
-        id: 'sps',
+        id: 'sns',
         nome: 'Sistema Nervoso Periférico Somático',
         curiosidades: [{
             titulo: 'Tétano',
