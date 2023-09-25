@@ -604,7 +604,7 @@ const doencas = [
         ]
     },
     {
-        id: 'spa',
+        id: 'sna',
         nome: 'Sistema Nervoso Autônomo',
         doencas: [
             {
