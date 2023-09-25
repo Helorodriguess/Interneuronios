@@ -231,12 +231,10 @@ for (let componente of componentes) {
         }
 
         for (let imagem of componente.imagens) {
-            var url = ''
-            url = imagem.url;
             div_o_que_e.innerHTML +=
                 `<div class="div_o_que_e">
                 <p>${imagem.legenda}</p>
-            <img src="${imagem.url}" class="img_o_que_e" title="${imagem.legenda}" onclick="exibirModal(${url})"/>
+            <img src="${imagem.url}" class="img_o_que_e" title="${imagem.legenda}" onclick="exibirModal('${imagem.url}')"/>
             </div>`
 
         }

@@ -90,18 +90,21 @@
     background-color: #DDBDFF;
 }
 
-dialog::backdrop {
+#modal::backdrop {
     background-color: rgb(0, 0, 0 / .3);
 }
 
-dialog {
+#modal {
     text-align: center;
     border: none;
     border-radius: 3rem;
     box-shadow: 0 0 1rem rgb(0, 0, 0 / .3);
-    width: 60%;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+
 }
 
 #modalContent img {
-    width: 350px;
+    width: 50vw;
 }

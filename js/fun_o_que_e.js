@@ -5,7 +5,7 @@ function exibirModal(modalvar) {
     modal.showModal();
 }
 
-function fecharModal() {
+function fecharModalOQueE() {
     const modal = document.getElementById("modal");
     modal.close();
 }
