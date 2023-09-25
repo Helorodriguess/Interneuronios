@@ -80,7 +80,8 @@ h1 {
   line-height: 2;
 }
 
-#go-back {
+#go-back,
+#ico_info {
   cursor: pointer;
 }
 
@@ -98,4 +99,8 @@ h1 {
 
 .main_button_img {
   width: 4vw;
+}
+
+.op {
+  opacity: 40%;
 }

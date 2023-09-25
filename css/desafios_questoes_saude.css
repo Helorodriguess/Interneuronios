@@ -35,6 +35,12 @@
     text-align: justify;
 }
 
+#glossario {
+    height: 70vh;
+    overflow: auto;
+    display: block;
+    text-align: justify;
+}
 
 .nome {
     height: 10vh;

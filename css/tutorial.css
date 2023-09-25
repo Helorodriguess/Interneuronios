@@ -1,0 +1,67 @@
+.bem_vindo_btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    box-shadow: 3rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+#myModal {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.div_btn {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+#firstbtn {
+    display: flex;
+    justify-content: end;
+}
+
+.div_img {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 85vh;
+}
+
+#m1,
+#m2,
+#m3,
+#m4,
+#m5,
+#m6,
+#m7,
+#m8 {
+    height: 90vh;
+    align-items: center;
+}
+
+.balao {
+    padding-bottom: 12%;
+}

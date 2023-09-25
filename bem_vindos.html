@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interneurônios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" href="css/css_especifico.css" />
+    <link rel="stylesheet" href="css/bem_vindos.css" />
+    <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <img src="img/bem_vindos/logo.svg" class="logo">
+
+    </header>
+
+    <main id="global_main">
+
+        <dialog id="myModal">
+            <div id="m1" class="modal active">
+                <div class="div_img">
+                    <img src="img/bem_vindos/bem_vindos_balao1.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos1.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn" id="firstbtn">
+                    <button class="bem_vindo_btn" onclick="proximoModal('m2')">Próximo</button>
+                </div>
+            </div>
+            <div id="m2" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/bem_vindos_balao2.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos2.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button class="bem_vindo_btn" onclick="proximoModal('m1')">Voltar</button>
+                    <button class="bem_vindo_btn" onclick="proximoModal('m3')">Próximo</button>
+                </div>
+
+            </div>
+            <div id="m3" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/bem_vindos_balao3.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos3.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button class="bem_vindo_btn" onclick="proximoModal('m2')">Voltar</button>
+                    <button class="bem_vindo_btn" onclick="fecharModal()">Fechar</button>
+                </div>
+            </div>
+        </dialog>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/fun_bem_vindos.js"></script>
+</body>
+
+</html>

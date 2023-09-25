@@ -37,7 +37,7 @@ function exibirModal(index) {
     modal.showModal();
 }
 
-function fecharModal() {
+function fecharModalQuestao() {
     const modal = document.getElementById("modal");
     modal.close();
 }

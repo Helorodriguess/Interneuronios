@@ -1,0 +1,73 @@
+header {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 20vh;
+}
+
+.bem_vindo_btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    box-shadow: 3rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+dialog {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#m1,
+#m3 {
+    padding-top: 8%;
+}
+
+.balao {
+    padding-bottom: 5%;
+    height: 70vh;
+}
+
+.div_btn {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+#firstbtn {
+    justify-content: end;
+}
+
+
+.div_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

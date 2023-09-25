@@ -9,10 +9,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
     <link rel="stylesheet" href="css/css_especifico.css" />
     <link rel="stylesheet" href="css/curiosidades_doencas.css" />
+    <link rel="stylesheet" href="css/tutorial.css" />
     <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
 </head>
 
-<body>
+<body id="main_div">
     <header id="global_header">
         <a id="btn_menu" href="javascript:void(0)">
             <img src="img/menu.svg" alt="Voltar" id="show_menu" />
@@ -43,6 +44,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="glossario.html">
+                        <img src="img/lupa.svg" alt="Glossário" />
+                        Glossário
+                    </a>
+                </li>
+                <li>
                     <a href="">
                         <img src="img/anexo.svg" alt="Apostila" />
                         Apostila
@@ -62,6 +69,91 @@
             <img src="img/chevron-compact-right.svg" alt="Próximo" class="chevron" onclick="proximo()">
         </div>
 
+        <dialog id="myModal">
+            <div id="m1" class="modal active">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao1.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos1.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn" id="firstbtn">
+                    <button onclick="proximoModal('m2')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m2" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao2.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos_lampada.svg" class="pauloLuis">
+                </div>
+
+                <div class="div_btn">
+                    <button onclick="proximoModal('m1')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m3')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m3" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao3.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos_lampada.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m2')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m4')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m4" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao4.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos2.svg" class="pauloLuisclass">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m3')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m5')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m5" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao5.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos2.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m4')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m6')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m6" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao6.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos2.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m5')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m7')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m7" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao7.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos2.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m6')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="proximoModal('m8')" class="bem_vindo_btn">Próximo</button>
+                </div>
+            </div>
+            <div id="m8" class="modal">
+                <div class="div_img">
+                    <img src="img/bem_vindos/tutorial_balao8.svg" class="balao">
+                    <img src="img/bem_vindos/bem_vindos1.svg" class="pauloLuis">
+                </div>
+                <div class="div_btn">
+                    <button onclick="proximoModal('m7')" class="bem_vindo_btn">Voltar</button>
+                    <button onclick="fecharModal()" class="bem_vindo_btn">fechar</button>
+                </div>
+            </div>
+
+
+        </dialog>
+
     </main>
 
     <footer id="global_footer">
@@ -69,11 +161,11 @@
         <a href="index.html">
             <img id="ico_home" src="img/home.svg" alt="Página inicial" />
         </a>
-        <a href="">
-            <img id="ico_info" src="img/information.svg" alt="Tutorial" />
-        </a>
+        <img id="ico_info" src="img/information.svg" alt="Tutorial" onclick="abrirModal()" />
+
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/fun_tutorial.js"></script>
 </body>
 <script src="js/json_doencas.js"></script>
 
