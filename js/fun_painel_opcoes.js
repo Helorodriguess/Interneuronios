@@ -12,17 +12,17 @@ const componentesOp = [
     {
         id: 'sinapse',
         nome: 'Sinapse',
-        imagem: ''
+        imagem: 'img/sinapse/sinapse4.jpg'
     },
     {
         id: 'bulbo',
         nome: 'Bulbo raquidiano',
-        imagem: ''
+        imagem: 'img/bulbo.png'
     },
     {
         id: 'cerebelo',
         nome: 'Cerebelo.',
-        imagem: ''
+        imagem: 'img/cerebelo/cerebelo2.png'
     },
     {
         id: 'cerebro',
@@ -32,7 +32,7 @@ const componentesOp = [
     {
         id: 'hipotalamo',
         nome: 'Hipotálamo',
-        imagem: ''
+        imagem: 'img/hipotalamo/hipotalamo.png'
     },
     {
         id: 'medula',
@@ -42,12 +42,12 @@ const componentesOp = [
     {
         id: 'meninge',
         nome: 'Meninge',
-        imagem: ''
+        imagem: 'img/meninge/meninges2.png'
     },
     {
         id: 'mesencefalo',
         nome: 'Mesencéfalo',
-        imagem: ''
+        imagem: 'img/mesencefalo.png'
     },
     {
         id: 'ponte',
@@ -57,7 +57,7 @@ const componentesOp = [
     {
         id: 'talamo',
         nome: 'Tálamo',
-        imagem: ''
+        imagem: 'img/talamo/talamoo.png'
     },
     {
         id: 'arco',
@@ -65,29 +65,24 @@ const componentesOp = [
         imagem: 'img/arco/arco0.png'
     },
     {
-        id: 'ganglio',
-        nome: 'Gânglios Nervosos',
-        imagem: ''
-    },
-    {
         id: 'craniano',
         nome: 'Nervos Cranianos',
-        imagem: ''
+        imagem: 'img/nervoscranianos.png'
     },
     {
         id: 'espinal',
-        nome: 'Nervo Espinal',
+        nome: 'Nervo Espinal e Gânglio Nervoso',
         imagem: 'img/espinal/espinal3.png'
     },
     {
         id: 'sna',
         nome: 'Sistema Nervoso Autonomo',
-        imagem: ''
+        imagem: 'img/snpa.png'
     },
     {
         id: 'sns',
         nome: 'Sistema Nervoso Somático',
-        imagem: ''
+        imagem: 'img/snpa.png'
     },
 ]
 

@@ -48,22 +48,51 @@ const componentes = [
         id: 'sinapse',
         nome: 'Sinapse',
         texto: 'A sinapse nervosa é a transmissão de um impulso nervoso.Para que uma sinapse ocorra, um neurônio que está em potencial de repouso, ou seja, que não foi estimulado, tem sua superfície da membrana interna mais eletricamente negativa com relação ao exterior. Assim, o potencial elétrico nada mais é que uma diferença de potencial entre as faces da membrana, que costuma ser de -70mV. Quando um neurônio é estimulado, a permeabilidade de sua membrana aos íons de sódio (Na+) e potássio (K+) muda, o que faz que sua diferença de potencial também muda, passando a ser de +40mV, essa inversão de potencial é chamada de potencial de ação. Esse processo é chamado de despolarização da membrana. O potencial dura cerca de um milissegundo, e logo em seguida a área despolarização do neurônio retorna ao estado de repouso, entretanto essa área estimula a área subsequente, até que o potencial de ação chegue no axônio. Essa propagação do impulso é chamada de impulso nervoso, que ocorre em sentido único: dos detritos segue para o corpo celular e então para os axônios. Depois de passar pelo axônio, o impulso nervoso passa para outra célula, que é chamada de pós-sináptica e pode ser outro neurônio ou uma célula muscular. A região entre as extremidades dessas células, por onde ocorre a transmissão, é chamada de sinapse nervosa. A transmissão do impulso nessas regiões ocorre por meio de neurotransmissores, ou mediadores químicos, que ficam armazenados nas bolsas membranosas das extremidades dos axônios e são liberados com o impulso. Os neurotransmissores se ligam às proteínas receptoras da membrana da célula pós-sináptica, gerando um novo impulso nervoso.',
-        imagens: ['', ''],
+        imagens: [
+            {
+                url: 'img/sinapse/sinapse4.jpg',
+                legenda: 'Figura 1: Sinapse'
+            },
+            {
+                url: 'img/sinapse/sinapse3.jpg',
+                legenda: 'Figura 2: Sinapse'
+            },
+            {
+                url: 'img/sinapse/sinapse2.png',
+                legenda: 'Figura 3: Sinapse'
+            },
+            {
+                url: 'img/sinapse/sinapse1.png',
+                legenda: 'Figura 4: Sinapse ampliada'
+            }
+        ],
         links: ['https://youtu.be/GAU4r0XleRU', 'https://youtu.be/YwN9aCobCy8', 'https://youtu.be/OvVl8rOEncE']
     },
     {
         id: 'bulbo',
         nome: 'Bulbo raquidiano',
         texto: 'O bulbo raquidiano, também denominado como medula oblonga, se situa na base do tronco encefálico e pode medir 3 centímetros e pesar cerca de 7 gramas. Esta pequena estrutura atua no controle de funções vitais, como: batimentos cardíacos e movimentos respiratórios.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [{
+            url: 'img/bulbo.png',
+            legenda: 'Figura 1: Bulbo'
+        }],
+        links: []
     },
     {
         id: 'cerebelo',
         nome: 'Cerebelo.',
         texto: 'O cerebelo está localizado entre a parte posterior do cérebro e a ponte (Fig. X), e conectado ao tálamo, ao tronco encefálico e à medula espinhal por fibras nervosas.  Essa estrutura é responsável por receber informações vindas do encéfalo, em sua maioria de células nervosas, e da medula espinhal, estas podem ser auditivas, visuais e até mesmo das articulações e músculos. Dessa maneira, ele é responsável por ajudar na coordenação de movimentos e postura corporal.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/cerebelo/cerebelo2.png',
+                legenda: 'Figura 1: Cerebelo',
+            },
+            {
+                url: 'img/cerebelo/cerebelo.png',
+                legenda: 'Figura 2: Cerebelo',
+            }
+        ],
+        links: []
     },
     {
         id: 'cerebro',
@@ -88,8 +117,17 @@ const componentes = [
         id: 'hipotalamo',
         nome: 'Hipotálamo',
         texto: 'O hipotálamo fica localizado logo abaixo do cérebro sob o tálamo em uma região denominada diencéfalo, ele é uma pequena estrutura que se aproxima ao tamanho de uma ervilha e possui função de adaptar o organismo às variações externas, que são denominadas como homeostase corporal (temperatura corporal, apetite e equilíbrio hídrico), além de atuar também na integração do sistema nervoso com o sistema endócrino funcionando como um centro de ativação das glândulas produtoras de hormônios; é no hipotálamo encontra-se a glândula hipófise (secreta neuro-hormônios) e a glândula pineal (secreta hormônio melatonina).',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/hipotalamo/hipotalamo.png',
+                legenda: 'Figura 1: Hipotálamo'
+            },
+            {
+                url: 'img/hipotalamo/hipo.png',
+                legenda: 'Figura 2: Hipotálamo e Glândula Hipófise'
+            }
+        ],
+        links: []
     },
     {
         id: 'medula',
@@ -112,21 +150,33 @@ const componentes = [
             legenda: 'Figura 4: Partes da Medula Espinal'
         },
         ],
-        links: ['']
+        links: []
     },
     {
         id: 'meninge',
         nome: 'Meninge',
         texto: 'São membranas que se situam entre as estruturas que formam o sistema nervoso central e a camada óssea, estas três membranas são formadas de tecido conjuntivo e recebem o respectivos nomes dura-máter, aracnoide e pia-máter, elas são as responsáveis por  transportar substâncias importantes para o sistema nervoso. Entre estas meninges há o líquido cerebrospinal, uma solução salina, que possui função de proteção física e química, ou seja, quando ocorre um choque na cabeça, o líquido cerebrospinal deve ser comprimido antes que o encéfalo bata na parede interna do crânio, a fim de que tal líquido ajude a acolchoar o encéfalo.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/meninge/meninges2.png',
+                legenda: 'Figura 1: Meninges',
+            },
+            {
+                url: 'img/meninge/meninges.png',
+                legenda: 'Figura 1: Meninges',
+            }
+        ],
+        links: []
     },
     {
         id: 'mesencefalo',
         nome: 'Mesencéfalo',
         texto: 'É um segmento curto que faz parte do tronco encefálico e participa da recepção e coordenação de informações ligadas a contração dos músculos e a postura corporal.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [{
+            url: 'img/mesencefalo.png',
+            legenda: 'Figura 1: Mesencéfalo'
+        }],
+        links: []
     },
     {
         id: 'ponte',
@@ -147,8 +197,17 @@ const componentes = [
         id: 'talamo',
         nome: 'Tálamo',
         texto: 'O tálamo é uma das partes do diencéfalo que se localiza acima do hipotálamo e é rico em corpos celulares de neurônios.  Antes de atingir o córtex cerebral, as mensagens sensoriais, com exceção da de origem dos receptores de olfato, passam por essa estrutura, por isso essa estrutura atua na transmissão dos impulsos nervosos para áreas específicas do cérebro, além de desempenhar função na regulação do estado de consciência, alerta e atenção.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/talamo/talamoo.png',
+                legenda: 'Figura 1: Tálamo',
+            },
+            {
+                url: 'img/talamo/talamo.png',
+                legenda: 'Figura 2: Tálamo',
+            }
+        ],
+        links: []
     },
     {
         id: 'arco',
@@ -172,12 +231,15 @@ const componentes = [
         id: 'craniano',
         nome: 'Nervos Cranianos',
         texto: 'Nervos cranianos são agrupamentos de fibras nervosas, responsáveis por carregar informações sensoriais e motoras relativas à cabeça e ao pescoço. Assim conectam o encéfalo a órgãos dos sentidos e a músculos. Os nervos cranianos são classificados de acordo com suas fibras, que são motoras, sensoriais ou mistas e no total temos 12 pares de nervos distribuídos em todo o organismo (Fig X).Existem 12 pares de nervos cranianos que possuem nomenclaturas próprias. Eles são divididos em:  1 par de nervos olfatório ; 1 par de nervos óptico ; 1 par de nervos oculomotor; 1 par de nervos troclear; 1 par de nervos trigêmeo; 1 par de nervos abducente 1 par de nervos facial ;1 par de nervos vestibular ;1 par de nervos glossofaríngeo ;1 par de nervos vago ;1 par de nervos acessório ;1 par de nervos hipoglosso Você pode ver mais nos links abaixo:',
-        imagens: ['', ''],
+        imagens: [{
+            url: 'img/nervoscranianos.png',
+            legenda: 'Figura 1: Nervos Cranianos'
+        }],
         links: ['https://www.sanarmed.com/nervos-cranianos-colunistas']
     },
     {
         id: 'espinal',
-        nome: 'Nervo Espinal',
+        nome: 'Nervo Espinal e Gânglio Nervoso',
         texto: 'Os nervos são estruturas constituídas por neurofibras que têm origem no encéfalo e na medula espinal e atingem diversas partes do corpo. Eles podem ser classificados de acordo com a função desempenhada como: sensitivos, motores e mistos. Os nervos sensitivos, ou aferentes, são aqueles que levam os impulsos das células para o sistema nervoso central. Já os nervos motores, ou eferentes, são os responsáveis por enviar os impulsos do sistema nervoso central para os músculos. Enquanto os nervos mistos são compostos por neurofibras de neurônios sensitivos e neurônios motores, então, desempenham as funções dos nervos sensitivos e nervos motores. Os nervos espinais ou raquidianos são aqueles que conectam a medula espinal a células sensoriais e músculos. Entre as vértebras existem espaços pelos quais esses nervos ligam-se à medula espinal, e em cada espaço há um par de nervos espinais a essa por dois conjuntos de fibras nervosas, as raízes. Um conjunto parte da região dorsal da medula e o outro da região ventral.  A raiz dorsal é formada por neurônios sensitivos responsáveis por conduzir impulsos nervosos de órgãos sensitivos até o sistema nervoso central. A raiz ventral é formada por neurônios motores, responsáveis por conduzir impulsos nervosos do sistema nervoso central aos músculos. Na raiz dorsal de cada nervo espinal há um gânglio nervoso no qual estão os corpos celulares de neurônios sensitivos. Existem 31 pares de nervos espinais. Eles são divididos em: 8 pares de Nervos Cervicais, 12 pares de Nervos Torácicos, 5 pares de Nervos Lombares, 5 pares de Nervos Sacrais,1  par de Nervos Coccígeos. Nos nervos existem os gânglios nervoso, estes são um conjunto de neurônios, em especial de corpos celulares, que formam pequenas dilatações em alguns nervos, as quais ficam localizadas no sistema nervoso periférico somáticos e autonômicos, próximo a coluna vertebral. Eles funcionam como estações de interligação entre os neurônios e as estruturas do corpo.  Existem 23 pares de gânglios nervosos. Eles são divididos em:  3 pares de Nervos Cervicais ;12 pares de Nervos Torácicos ;4 pares de Nervos Lombares ; 4 pares de Nervos Sacrais ; 1 gânglio ímpar que vai do pescoço ao cóccix.',
         imagens: [{
             url: 'img/espinal/espinal1.png',
@@ -190,22 +252,35 @@ const componentes = [
         {
             url: 'img/espinal/espinal2.png',
             legenda: 'Figura 3: Nervos Espinais'
-        },],
+        },
+        {
+            url: 'img/espinal/ganglios.jpg',
+            legenda: 'Figura 4: Gânglios nervosos'
+        }],
         links: ['https://www.kenhub.com/pt/library/anatomia/ganglios-nervosos']
     },
     {
         id: 'sna',
         nome: 'Sistema Nervoso Autonomo',
         texto: 'O Sistema nervoso periférico autônomo (exclusivamente motor) é responsável por ações involuntárias, tais como os movimentos peristálticos do sistema digestório e os batimentos do coração, que são resultados das contrações da musculatura não estriada (lisa) e da musculatura cardíaca. O SNP autônomo, ou SNP visceral, regula a parte interna do corpo e controla os sistemas nele presentes. O SNP autônomo é formado por neurofibras motoras que mandam informações do SNC para as vísceras e coração. Esse sistema possui dois tipos de neurônios, o neurônio pré-ganglionar, que está presente dentro do sistema nervoso central de onde seu axônio sai e vai até um gânglio onde se situa o corpo celular do outro, o neurônio pós-ganglionar. É o axônio deste último que envia os impulsos até as vísceras e/ou coração. O SNPA pode ser dividido em SNPA simpático que é formado pelos nervos raquidianos que saem das regiões lombares e torácicas da medula espinal; os gânglios nervosos deste se situam nas proximidades da medula e parassimpático que se dá a partir dos nervos cranianos (que saem do encéfalo) e dos raquidianos (que saem da medula espinal); os gânglios nervosos desse sistema ficam perto ou dentro do órgão inervado (que possui muitos nervos). O SNPA simpático é responsável por estimular ações que demandam energia, como a aceleração dos batimentos cardíacos, permitindo ao organismo responder a situações de estresse. Já o SNPA parassimpático atua em atividades mais relaxantes, como a redução desses batimentos. O SNPA simpático é constituído de nervos espinais que partem da região torácica e da lombar, enquanto o SNPA parassimpático tem nervos que partem da região sacral ou final da medula espinal.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/snpa.png',
+                legenda: 'Figura 1: SNP autônomo simpático e parassimpático'
+            }
+        ],
+        links: []
     },
     {
         id: 'sns',
         nome: 'Sistema Nervoso Somático',
         texto: 'O sistema nervoso periférico somático é responsável por coordenar as ações que realizamos de forma consciente, ou seja, as ações voluntárias. Essas ações são resultado das contrações dos músculos estriados esqueléticos. O sistema nervoso periférico somático tem ramos sensitivos, que levam informações e estímulos do ambiente externo e interno ao SNC, e motores, que conduzem impulsos do SNC aos músculos estriados esqueléticos. Os nervos motores do SNP somático possuem os corpos celulares dos neurônios que o constitui dentro do sistema nervoso central e as extremidades (dos dendritos e axônios) se encontram nos músculos que serão controlados; enquanto nos nervos sensoriais os corpos celulares ficam nos gânglios próximos à medula e as fibras enviam impulsos até a medula ou até o encéfalo.',
-        imagens: ['', ''],
-        links: ['']
+        imagens: [
+            {
+                url: 'img/snpa.png',
+                legenda: 'Figura 1: SNP autônomo simpático e parassimpático'
+            }],
+        links: []
     },
 ]
 

@@ -37,8 +37,9 @@
 
 #glossario {
     height: 70vh;
-    overflow: auto;
     display: block;
+    overflow: auto;
+
     text-align: justify;
 }
 
@@ -95,6 +96,33 @@
     padding: 0.5%;
     word-break: break-word;
     display: flex;
+}
+
+.img_ques {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.div_ref_main {
+    margin-top: 5rem;
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.div_ref {
+    text-align: justify;
+    padding: 2rem;
+}
+
+.div_ref p {
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
 }
 
 label {

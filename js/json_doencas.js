@@ -118,7 +118,7 @@ const doencas = [
         ]
     },
     {
-        id: 'sinpase',
+        id: 'sinapse',
         nome: 'Sinapse',
         doencas: [
             {
@@ -541,7 +541,7 @@ const doencas = [
     },
     {
         id: 'espinal',
-        nome: 'Nervo Espinal',
+        nome: 'Nervo Espinal e Gânglio Nervoso',
         doencas: [
             {
                 nome: 'Poliomielite',
