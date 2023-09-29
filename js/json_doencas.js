@@ -730,7 +730,7 @@ function proximo() {
     }
 
     for (let link of doe[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
+        div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
     }
 
     if (i >= doe.length - 1) {

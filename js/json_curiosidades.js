@@ -322,7 +322,7 @@ function proximo() {
     `;
 
     for (let link of cur[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
+        div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
     }
     if (i >= cur.length - 1) {
         i = -1; // aqui dá erro

@@ -302,7 +302,7 @@ for (let componente of componentes) {
     `;
 
         for (let link of componente.links) {
-            div_o_que_e.innerHTML += ` <p class="link">&#9679 <a href = "${link}"</a> ${link}</p >`
+            div_o_que_e.innerHTML += ` <p class="link">&#9679 <a href = "${link}" target="_blank">${link}</a> </p >`
         }
 
         for (let imagem of componente.imagens) {

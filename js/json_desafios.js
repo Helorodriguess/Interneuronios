@@ -92,7 +92,7 @@ for (let desafio of desafios) {
 
     for (let link of desafio.links) {
         des.innerHTML +=
-            `<p class="link">&#9679<a href="${link}">${link}</a></p>
+            `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>
     `;
     }
 }  
