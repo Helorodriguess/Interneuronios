@@ -315,18 +315,27 @@ var i = -1;
 function proximo() {
     i++;
     var cur = curiosidadeDoComp.curiosidades;
-    console.log(cur)
-    div_text.innerHTML =
-        `<div class="titulo"> <img src="img/CuriosidadeIcon.svg"/>${cur[i].titulo}</div>
+    div_text.innerHTML = ""
+    div_text.classList.add('active')
+
+    setTimeout(() => {
+        div_text.innerHTML =
+            `<div class="titulo"> <img src="img/CuriosidadeIcon.svg"/>${cur[i].titulo}</div>
         <div class="texto">${cur[i].texto}</div>
     `;
 
-    for (let link of cur[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
-    }
-    if (i >= cur.length - 1) {
-        i = -1; // aqui dá erro
-    }
+        for (let link of cur[i].links) {
+            div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
+        }
+        if (i >= cur.length - 1) {
+            i = -1; // aqui dá erro
+        }
+        div_text.classList.remove('active')
+
+    }, 500)
+
+
+    //div_text.classList.remove('active')
     console.log(i);
 }
 

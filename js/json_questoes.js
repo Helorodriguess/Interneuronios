@@ -1935,10 +1935,10 @@ for (let questao of questoes) {
     for (let alternativa of listaAlternativas) {
         ques.innerHTML += `
         <div class="alt">
-        <input type="radio" id="${alternativa.letra}" 
+        <input type="radio" id="questao${index}${alternativa.letra}" 
         name="questao${index}" 
         class="${alternativa.classificacao}" />
-        <label for="${alternativa.letra}" class="classLabel">
+        <label for="questao${index}${alternativa.letra}" class="classLabel">
         ${alternativa.letra}) ${alternativa.alternativa}</label>
         </div>
         `;
@@ -1948,7 +1948,7 @@ for (let questao of questoes) {
     <button class="btn" onclick="corrigir('questao${index}')">Responder</button>
     <button type="button" class="btn" data-bs-toggle="modal" onclick="exibirModal(${index})">Ver resposta</button>
     </div>
-
+    <hr>
     </form>`;
     index++;
 

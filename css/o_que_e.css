@@ -45,7 +45,7 @@
 }
 
 .img_o_que_e {
-    max-width: 250px;
+    width: 250px;
     cursor: pointer;
 }
 
@@ -64,14 +64,14 @@
 
 
 .btnM {
-    width: 55vw;
+    width: 60vw;
     text-align: end;
     margin: 0 auto;
 }
 
 .btnModel {
-    width: 8vw;
-    height: 5vh;
+    width: 100px;
+    height: 25px;
     border-radius: 8px;
     background-color: #CA9CFA;
     border: none;
@@ -90,21 +90,19 @@
     background-color: #DDBDFF;
 }
 
-#modal::backdrop {
-    background-color: rgb(0, 0, 0 / .3);
-}
+
 
 #modal {
     text-align: center;
     border: none;
     border-radius: 3rem;
     box-shadow: 0 0 1rem rgb(0, 0, 0 / .3);
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    max-height: 60%;
     margin: auto;
 
 }
 
 #modalContent img {
-    width: 50vw;
+    max-width: 90vw;
 }

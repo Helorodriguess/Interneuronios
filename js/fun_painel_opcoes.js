@@ -137,8 +137,4 @@ main_buttons.innerHTML +=
         </div>
         </button>
     </a>
-</div>
-    `;
-
-
-
+</div>`;

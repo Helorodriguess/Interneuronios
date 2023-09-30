@@ -35,7 +35,7 @@ const saude_mental = [
         links: []
     },
     {
-        titulo: 'Gigiene do sono',
+        titulo: 'Higiene do sono',
         texto: '“A higiene do sono é um conjunto de regras e práticas que devem ser seguidas ao ir dormir, com o objetivo de facilitar a chegada do sono, para que esse momento seja sempre relaxante e tranquilo. Além disso, a higiene do sono também busca trazer maior qualidade de sono, para que a pessoa acorde com a sensação de estar verdadeiramente descansada. Como esse é um importante processo fisiológico, essencial para o bem-estar do organismo, é necessário adotar medidas que sejam favoráveis e “amigas” do sono” (INSTITUTO DO SONO, 2022). Você pode ter acesso a informações complementares sobre essas temáticas acessando os seguintes tópicos, presentes no Interneurônios: “Comportamento”, “Emoção e motivação”, “Humores”, “Psicotrópicos”,  “Sono”, “Aprendizado e memória” e “Depressão”. Saiba mais sobre a higiene do sono (e como praticá-la) em:',
         links: ['https://institutodosono.com/artigos-noticias/higiene-do-sono-tudo-o-que-voce-precisa-saber-sobre-essa-pratica/', 'https://coral.ufsm.br/docsie/acolhimento/Higiene_do_sono.pdf', 'https://www.cnnbrasil.com.br/saude/higiene-do-sono-8-maneiras-de-treinar-seu-cerebro-para-dormir-melhor/']
     },
@@ -43,20 +43,6 @@ const saude_mental = [
         titulo: 'Temáticas do cotidiano',
         texto: 'Além das concepções biológicas da ansiedade, depressão e uso de drogas, existem análises nos âmbitos sociológicos, filosóficos de variadas áreas da saúde. Assim, a fim de ampliar o debate acerca dessas temáticas, está disponibilizado, abaixo, alguns vídeos que podem auxiliar em um debate sobre o assunto, dentro e fora da sala de aula.',
         links: ['https://youtu.be/vJNzJqXvg7s', 'https://youtu.be/pK2aLOYKSbs', 'https://youtu.be/iYvqb7P3n_g', 'https://youtu.be/8RgPyNiN6Dw', 'https://youtu.be/-jUBIUvvFYs', 'https://youtu.be/kwxyT5n6E9o', 'https://youtu.be/oaiwdnUPWxo', 'https://youtu.be/AU1rlvd6e9k', 'https://youtu.be/xKNDHtuIyTk', 'https://youtu.be/kXuDEB7HQ84', 'https://youtu.be/DSOMRi1HJeQ']
-    },
-    {
-        titulo: 'Referência',
-        texto: 'AMERICAN PSYCHIATRIC ASSOCIATION - APA. Manual diagnóstico e estatístico de transtornos mentais: DSM-5. Porto Alegre: Artmed, 2014.',
-        links: []
-    },
-    {
-        titulo: 'Referência',
-        texto: 'BRITO, Isabel. Ansiedade e depressão na adolescência. Revista Portuguesa de Medicina Geral e Familiar, [S. l.], v. 27, n. 2, p. 208 - 214, 2011. DOI: 10.32385/rpmgf.v27i2.10842. Disponível em: https://rpmgf.pt/ojs/index.php/rpmgf/article/view/10842. Acesso em: 22 jul. 2023.',
-        links: []
-    },
-    {
-        titulo: 'Referência',
-        texto: 'GROLLI, Verônica; WAGNER, Marcia Fortes; DALBOSCO, Simone Nenê Portela. Sintomas Depressivos e de Ansiedade em Adolescentes do Ensino Médio. Revista de Psicologia da Imed, [S.L.], v. 9, n. 1, p. 87-103, 14 nov. 2017. Complexo de Ensino Superior Meridional S.A.. http://dx.doi.org/10.18256/2175-5027.2017.v9i1.2123. Disponível em: https://dialnet.unirioja.es/servlet/articulo?codigo=6185316. Acesso em: 22 jul. 2023.'
     }
 
 ]

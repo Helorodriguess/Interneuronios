@@ -25,10 +25,12 @@
 h1 {
   color: black;
   font-family: 'Nunito', sans-serif;
+  margin: 6px;
+  font-size: 40px !important;
 }
 
 .main_div {
-  width: 90vw;
+  max-width: 90vw;
   height: 70vh;
   align-items: center;
   justify-content: center;
@@ -37,18 +39,21 @@ h1 {
 }
 
 #main_img img {
-  width: 16vw;
-  padding: 2%;
+  width: 250px;
+  padding: 10px;
+  margin: 8px;
+  margin-bottom: 20px;
 }
 
 #main_buttons div {
-  padding: 0.7%;
+  padding: 3px;
 }
 
 
 #main_button {
-  width: 20vw;
-  height: 8vh;
+  margin: 8px;
+  width: 300px;
+  height: 50px;
   border-radius: 22px;
   background-color: #F7D5FA;
   border: none;
@@ -65,7 +70,7 @@ h1 {
 }
 
 #main_button img {
-  width: 2vw;
+  width: 30px;
 }
 
 .mainText {
@@ -73,11 +78,12 @@ h1 {
   justify-content: center;
   text-align: center;
   width: 85vw;
-  height: 50;
+  height: 50vh;
   padding: 5%;
   text-align: justify;
   font-size: medium;
   line-height: 2;
+  font-family: 'Nunito', sans-serif;
 }
 
 #go-back,
@@ -87,18 +93,18 @@ h1 {
 
 .main_button_div {
   display: flex;
-  width: 20vw;
+  width: 300px;
   align-items: center;
   justify-items: center;
 }
 
 .main_button_text {
-  width: 17vw;
+  width: 240px;
   border-right: solid 1px black;
 }
 
 .main_button_img {
-  width: 4vw;
+  width: 60px;
 }
 
 .op {

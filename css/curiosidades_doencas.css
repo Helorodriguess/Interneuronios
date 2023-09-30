@@ -24,11 +24,10 @@
 
 #div_text {
     background-color: #F7D5FA;
-    width: 50vw;
-    height: 60vh;
+    width: 80vw;
+    height: 65vh;
     border-radius: 40px;
     overflow: auto;
-
 }
 
 .title {
@@ -52,7 +51,6 @@
 
 #titulo {
     width: 100vw;
-    margin: solid 1px red;
     margin: 0 auto;
 }
 
@@ -82,7 +80,7 @@
 .titulo,
 .title,
 .topico {
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -92,4 +90,8 @@
 
 .topico {
     padding: 6px;
+}
+
+.active {
+    background-color: #F7D5FA !important;
 }

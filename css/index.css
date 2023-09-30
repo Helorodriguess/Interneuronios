@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+
 :root {
   --main-bg-color: lightgreen;
   --primary-color: green;
@@ -88,7 +91,7 @@ aside#menu ul {
 
 aside#menu h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 aside#menu ul li a {
@@ -97,7 +100,8 @@ aside#menu ul li a {
   justify-content: start;
   gap: 1rem;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 aside#menu.opened {
@@ -114,8 +118,12 @@ aside#menu.opened {
 }
 
 footer#global_footer img,
-header#global_header img,
-main#global_main aside#menu img {
+header#global_header img {
   width: 2rem;
   height: 2rem;
+}
+
+main#global_main aside#menu img {
+  width: 1.7rem;
+  height: 1.7rem;
 }
