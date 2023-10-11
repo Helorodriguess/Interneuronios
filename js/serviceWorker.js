@@ -1,5 +1,6 @@
 const staticInterneuronios = "dev-Interneuronios-site-v1"
 const assets = [
+    "/",
     "../bem_vindos.html",
     "../curiosidades.html",
     "../desafios.html",
@@ -14,19 +15,43 @@ const assets = [
     "../snc.html",
     "../snp.html",
     "../tn.html",
-    "/",
-    "/index.html",
-    "/css/style.css",
-    "/js/app.js",
-    "/images/coffee1.jpg",
-    "/images/coffee2.jpg",
-    "/images/coffee3.jpg",
-    "/images/coffee4.jpg",
-    "/images/coffee5.jpg",
-    "/images/coffee6.jpg",
-    "/images/coffee7.jpg",
-    "/images/coffee8.jpg",
-    "/images/coffee9.jpg",
+    "../img/anexo.svg",
+    "../img/back.svg",
+    "../img/bulbo.png",
+    "../img/chevron-compact-left.svg",
+    "../img/ chevron-compact-right.svg",
+    "../img/CuriosidadeIcon.svg",
+    "../img/doencaIcon.svg",
+    "../img/facicon.gif",
+    "../img/home.svg",
+    "../img/imag_snc.svg",
+    "../img/information.svg",
+    "../img/interneuronios.png",
+    "../img/lupa.svg",
+    "../img/menu.svg",
+    "../img/mesencefalo.png",
+    "../img/nervoscranianos.png",
+    "../img/oQueEIcon.svg",
+    "../img/puzzle.svg",
+    "../img/ques32.jpg",
+    "../img/ques58.jpg",
+    "../img/question.svg",
+    "../img/referencia.svg",
+    "../img/saude.svg",
+    "../img/snp.png",
+    "../img/snc.png",
+    "../img/tn.png",
+
+
+    "../img/arco/arco0.png",
+
+
+    "../css/bem_vindos.css",
+
+
+    "/fun_bem_vindos.js",
+
+
 ]
 
 self.addEventListener("install", installEvent => {
