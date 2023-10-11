@@ -316,7 +316,7 @@ function proximo() {
     i++;
     var cur = curiosidadeDoComp.curiosidades;
     div_text.innerHTML = ""
-    div_text.classList.add('active')
+    div_text.classList.add('active1')
 
     setTimeout(() => {
         div_text.innerHTML =
@@ -330,7 +330,7 @@ function proximo() {
         if (i >= cur.length - 1) {
             i = -1; // aqui dá erro
         }
-        div_text.classList.remove('active')
+        div_text.classList.remove('active1')
 
     }, 500)
 
@@ -342,20 +342,25 @@ function proximo() {
 function anterior() {
 
     i--;
-    var cur = curiosidadeDoComp.curiosidades; // cur = todas as curiosidades de um componete
-    if (i === -1) { // aqui dá erro 
+    var cur = curiosidadeDoComp.curiosidades;
+    div_text.innerHTML = ""
+    div_text.classList.add('active1')
+    if (i === -1) {
         i = cur.length - 1;
     }
 
     console.log(cur)
-    div_text.innerHTML =
-        `<div class="titulo"> <img src="img/CuriosidadeIcon.svg"/>${cur[i].titulo}</div>
+    setTimeout(() => {
+        div_text.innerHTML =
+            `<div class="titulo"> <img src="img/CuriosidadeIcon.svg"/>${cur[i].titulo}</div>
         <div class="texto">${cur[i].texto}</div>
     `;
 
-    for (let link of cur[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
-    }
+        for (let link of cur[i].links) {
+            div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
+        }
+        div_text.classList.remove('active1')
+    }, 500)
     console.log(i);
 }
 

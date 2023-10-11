@@ -43,8 +43,8 @@
 }
 
 .div_img {
-
-    align-items: end;
+    display: flex;
+    align-items: center;
     justify-content: center;
     height: 85vh;
 
@@ -62,12 +62,6 @@
     align-items: center;
 }
 
-.balao {
-    padding-top: 20%;
-    width: 360px;
-}
-
-.pauloLuis {
-    width: 200px;
-    margin-left: 45%;
+.tutorialimg {
+    width: 350px;
 }

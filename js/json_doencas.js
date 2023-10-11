@@ -719,50 +719,62 @@ var i = -1;
 function proximo() {
     i++;
     var doe = doencaDoComp.doencas;
-    console.log(doe)
-    div_text.innerHTML =
-        `<div class="titulo"> <img src="img/doencaIcon.svg">${doe[i].nome}</div>`;
+    div_text.innerHTML = ""
+    div_text.classList.add('active1')
 
-    for (text of doe[i].textos) {
-        div_text.innerHTML +=
-            `<div class="topico">${text.topico}</div>
+    setTimeout(() => {
+        console.log(doe)
+        div_text.innerHTML =
+            `<div class="titulo"> <img src="img/doencaIcon.svg">${doe[i].nome}</div>`;
+
+        for (text of doe[i].textos) {
+            div_text.innerHTML +=
+                `<div class="topico">${text.topico}</div>
         <div class="texto">${text.texto}</div>`
-    }
+        }
 
-    for (let link of doe[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
-    }
+        for (let link of doe[i].links) {
+            div_text.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
+        }
 
-    if (i >= doe.length - 1) {
-        i = -1; // aqui dá erro
-        console.log(i)
-    }
-    console.log(i);
+        if (i >= doe.length - 1) {
+            i = -1; // aqui dá erro
+            console.log(i)
+        }
+        console.log(i);
 
-    console.log(i);
+        console.log(i);
+        div_text.classList.remove('active1')
+    }, 500)
 }
 
 function anterior() {
 
     i--;
     var doe = doencaDoComp.doencas;
-    if (i === -1) { // aqui dá erro
-        i = doe.length - 1;
-    }
+    div_text.innerHTML = ""
+    div_text.classList.add('active1')
 
-    console.log(doe)
-    div_text.innerHTML =
-        `<div class="titulo"><img src="img/doencaIcon.svg">${doe[i].nome}</div>`;
+    setTimeout(() => {
+        if (i === -1) {
+            i = doe.length - 1;
+        }
 
-    for (text of doe[i].textos) {
-        div_text.innerHTML +=
-            `<div class="topico">${text.topico}</div>
+        console.log(doe)
+        div_text.innerHTML =
+            `<div class="titulo"><img src="img/doencaIcon.svg">${doe[i].nome}</div>`;
+
+        for (text of doe[i].textos) {
+            div_text.innerHTML +=
+                `<div class="topico">${text.topico}</div>
         <div class="texto">${text.texto}</div>`
-    }
+        }
 
-    for (let link of doe[i].links) {
-        div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
-    }
+        for (let link of doe[i].links) {
+            div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
+        }
+        div_text.classList.remove('active1')
+    }, 500)
 }
 
 proximo();
