@@ -95,4 +95,5 @@ for (let desafio of desafios) {
             `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>
     `;
     }
+    des.innerHTML += `<hr>`
 }  
