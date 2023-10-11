@@ -1,6 +1,7 @@
 const staticInterneuronios = "dev-Interneuronios-site-v1"
 const assets = [
     "/",
+    "../Apostila.pdf",
     "../bem_vindos.html",
     "../curiosidades.html",
     "../desafios.html",
