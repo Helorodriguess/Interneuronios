@@ -1,0 +1,16 @@
+{
+    "name": "Interneurônios",
+    "short_name": "Interneurônios",
+    "theme_color": "#b989ed",
+    "background_color": "#b989ed",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/bem_vindos.html",
+    "icons": [
+        {
+            "src": "../img/Interneuronios.png",
+            "type": "image/png",
+            "sizes": "80x80"
+        }
+    ]
+}
