@@ -257,3 +257,7 @@ dialog {
     width: 85vw !important;
     height: 76vh;
 }
+
+hr {
+    margin-top: 10px;
+}
