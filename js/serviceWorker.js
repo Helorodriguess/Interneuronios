@@ -77,9 +77,58 @@ const assets = [
     "../img/glia/glia3.png",
     "../img/hipotalamo/hipo.png",
     "../img/hipotalamo/hipotalamo.png",
+    "../img/medula/medula0.png",
+    "../img/medula/medula1.png",
+    "../img/medula/medula2.png",
+    "../img/medula/medula3.png",
+    "../img/medula/medula4.png",
+    "../img/meninge/meningens.png",
+    "../img/medula/meningens2.png",
+    "../img/neuronio/neuronio0.png",
+    "../img/neuronio/neuronio1.png",
+    "../img/neuronio/neuronio2.png",
+    "../img/neuronio/neuronio3.png",
+    "../img/neuronio/neuronio4.png",
+    "../img/neuronio/neuronio5.png",
+    "../img/ponte/tronco0.png",
+    "../img/ponte/tronco1.png",
+    "../img/ponte/tronco2.png",
+    "../img/sinapse/sinapse1.png",
+    "../img/sinapse/sinapse2.png",
+    "../img/sinapse/sinapse3.png",
+    "../img/ponte/sinapse4.png",
+    "../img/talamo/talamo.png",
+    "../img/talamo/talamoo.png",
+    "../img/tutorial/tela_tutorial1.svg",
+    "../img/tutorial/tela_tutorial2.svg",
+    "../img/tutorial/tela_tutorial3.svg",
+    "../img/tutorial/tela_tutorial4.svg",
+    "../img/tutorial/tela_tutorial5.svg",
+    "../img/tutorial/tela_tutorial6.svg",
+    "../img/tutorial/tela_tutorial7.svg",
+    "../img/tutorial/tela_tutorial8.svg",
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     "../css/bem_vindos.css",
+    "../css/especifico.css",
+    "../css/curiosidades_doencas.css",
+    "../css/desafios_questoes_saude.css",
+    "../css/index.css",
+    "../css/o_que_e.css",
+    "../css/sistemas.css",
+    "../css/tutorial.css",
 
 
     "/fun_bem_vindos.js",
