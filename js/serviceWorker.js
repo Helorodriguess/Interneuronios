@@ -17,10 +17,6 @@ const assets = [
     "../snp.html",
     "../tn.html",
 
-
-    "/",
-    "/index.html",
-    "/css/style.css",
     "../img/anexo.svg",
     "../img/back.svg",
     "../img/bulbo.png",
@@ -47,7 +43,6 @@ const assets = [
     "../img/snp.png",
     "../img/snc.png",
     "../img/tn.png",
-
 
     "../img/arco/arco0.png",
     "../img/arco/arco1.png",
@@ -78,9 +73,7 @@ const assets = [
     "../img/hipotalamo/hipo.png",
     "../img/hipotalamo/hipotalamo.png",
 
-
     "../css/bem_vindos.css",
-
 
     "/fun_bem_vindos.js",
     "/fun_o_que_e.js",
@@ -97,8 +90,6 @@ const assets = [
     "/main.js",
     "/serviceWorker.js",
     "/user_control.js",
-
-
 ]
 
 self.addEventListener("install", installEvent => {
