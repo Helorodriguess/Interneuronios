@@ -17,10 +17,6 @@ const assets = [
     "../snp.html",
     "../tn.html",
 
-
-    "/",
-    "/index.html",
-    "/css/style.css",
     "../img/anexo.svg",
     "../img/back.svg",
     "../img/bulbo.png",
@@ -47,7 +43,6 @@ const assets = [
     "../img/snp.png",
     "../img/snc.png",
     "../img/tn.png",
-
 
     "../img/arco/arco0.png",
     "../img/arco/arco1.png",
@@ -120,7 +115,6 @@ const assets = [
 
 
 
-
     "../css/bem_vindos.css",
     "../css/especifico.css",
     "../css/curiosidades_doencas.css",
@@ -129,7 +123,6 @@ const assets = [
     "../css/o_que_e.css",
     "../css/sistemas.css",
     "../css/tutorial.css",
-
 
     "/fun_bem_vindos.js",
     "/fun_o_que_e.js",
@@ -146,8 +139,6 @@ const assets = [
     "/main.js",
     "/serviceWorker.js",
     "/user_control.js",
-
-
 ]
 
 self.addEventListener("install", installEvent => {
