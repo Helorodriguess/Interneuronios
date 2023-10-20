@@ -31,7 +31,7 @@ html {
 body {
   background-color: var(--main-bg-color);
   width: 90vw;
-  height: 100vh;
+  max-height: 100vh !important;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -55,6 +55,7 @@ header#global_header #btn_menu:hover {
 }
 
 footer#global_footer {
+  padding-top: 10px;
   padding-bottom: 15px;
   width: 100%;
   display: flex;
