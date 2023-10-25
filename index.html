@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interneurônios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <link rel="stylesheet" href="css/css_especifico.css" />
+    <link rel="stylesheet" href="css/tutorial.css" />
+    <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+    <link rel="manifest" href="js/manifest.json" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Interneurônios</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-  <link rel="stylesheet" href="css/css_especifico.css" />
-  <link rel="stylesheet" href="css/tutorial.css" />
-  <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
-</head>
-
-<body id="main_div">
-  <header id="global_header">
-    <a id="btn_menu" href="javascript:void(0)">
-      <img src="img/menu.svg" alt="Voltar" id="show_menu" />
-    </a>
-    <h1>Sistema Nervoso</h1>
-  </header>
-
-  <main id="global_main">
+  <body id="main_div">
+    <header id="global_header">
+      <a id="btn_menu" href="javascript:void(0)">
+        <img src="img/menu.svg" alt="Voltar" id="show_menu" />
+      </a>
+      <h1>Sistema Nervoso</h1>
+    </header>
     <aside id="menu">
       <h3>Menu</h3>
       <ul>
@@ -63,61 +66,67 @@
       </ul>
     </aside>
 
-    <div class="main_div">
-      <div id="main_img">
-        <img src="img/Interneuronios.png" />
-      </div>
+    <main id="global_main">
+      <div class="main_div">
+        <div id="main_img">
+          <img src="img/Interneuronios.png" />
+        </div>
 
-      <div id="main_buttons">
-        <div>
-          <a href="tn.html">
-            <button id="main_button">
-              Tecido Nervoso
-            </button>
-          </a>
-        </div>
-        <div>
-          <a href="snc.html">
-            <button id="main_button">
-              Sistema Nervoso Central
-            </button>
-          </a>
-        </div>
-        <div>
-          <a href="snp.html">
-            <button id="main_button">
-              Sistema Nervoso Periférico
-            </button>
-          </a>
+        <div id="main_buttons">
+          <div>
+            <a href="tn.html">
+              <button id="main_button">Tecido Nervoso</button>
+            </a>
+          </div>
+          <div>
+            <a href="snc.html">
+              <button id="main_button">Sistema Nervoso Central</button>
+            </a>
+          </div>
+          <div>
+            <a href="snp.html">
+              <button id="main_button">Sistema Nervoso Periférico</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <dialog id="myModal">
+      <dialog id="myModal"></dialog>
+    </main>
 
+    <footer id="global_footer">
+      <img src="img/back.svg" alt="Voltar" id="go-back" />
+      <a href="index.html">
+        <img id="ico_home" src="img/home.svg" alt="Página inicial" />
+      </a>
 
-    </dialog>
-
-
-  </main>
-
-  <footer id="global_footer">
-    <img src="img/back.svg" alt="Voltar" id="go-back" />
-    <a href="index.html">
-      <img id="ico_home" src="img/home.svg" alt="Página inicial" />
-    </a>
-
-    <img id="ico_info" src="img/information.svg" alt="Tutorial" onclick="abrirModal()" />
-
-  </footer>
-  <script src="js/main.js"></script>
-  <script src="js/fun_tutorial.js"></script>
-  <script src="js/user_control.js"></script>
-  <script>verificaPrimeiroAcesso()</script>
-</body>
-<script src="js/reqDesafios.js"></script>
-<script src="js/json_tutorial.js"></script>
-<script src="/js/manifest.json"></script>
-<script src="/js/serviceWorker.js"></script>
-
+      <img
+        id="ico_info"
+        src="img/information.svg"
+        alt="Tutorial"
+        onclick="abrirModal()"
+      />
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/fun_tutorial.js"></script>
+    <script src="js/user_control.js"></script>
+    <script>
+      verificaPrimeiroAcesso();
+    </script>
+  </body>
+  <script src="js/json_tutorial.js"></script>
+  <script src="/js/manifest.json"></script>
+  <script src="/js/serviceWorker.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("js/serviceWorker.js")
+        .then(function () {
+          console.log("service worker registered");
+        })
+        .catch(function () {
+          console.warn("service worker failed");
+        });
+    }
+  </script>
 </html>

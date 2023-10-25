@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap");
 
 :root {
   --main-bg-color: lightgreen;
   --primary-color: green;
   --secondary-color: darkgreen;
-  --menu-bg-color: #EBB7F0;
+  --menu-bg-color: #ebb7f0;
 }
 
 * {
@@ -102,12 +101,13 @@ aside#menu ul li a {
   gap: 1rem;
   margin-bottom: 1rem;
   font-size: 1.2rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 aside#menu.opened {
   visibility: visible;
   opacity: 1;
+  z-index: 1;
 }
 
 .primary {
@@ -124,7 +124,7 @@ header#global_header img {
   height: 2rem;
 }
 
-main#global_main aside#menu img {
+aside#menu img {
   width: 1.7rem;
   height: 1.7rem;
 }
