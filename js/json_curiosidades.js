@@ -26,7 +26,7 @@ const curiosidades = [
     },
     {
         id: 'glia',
-        nome: 'Célula da glia',
+        nome: 'Célula da Glia',
         curiosidades: [{
             titulo: 'Doenças desmielinizantes',
             texto: 'As doenças desmielinizantes são aquelas que acarretam a perda de mielina dos neurônios, o que retarda a condução dos potenciais de ação. Elas são, geralmente, caracterizadas por queixas neurológicas, dentre as quais estão: fadiga, fraqueza muscular, dificuldade ao caminhar e perda da visão.  As doenças desmielinizantes são, principalmente, hereditárias ou autoimunes; apesar de seus sintomas serem tratáveis, suas causas não são.',
@@ -332,7 +332,7 @@ function proximo() {
         }
         div_text.classList.remove('active1')
 
-    }, 500)
+    }, 400)
 
 
     //div_text.classList.remove('active')
@@ -345,12 +345,14 @@ function anterior() {
     var cur = curiosidadeDoComp.curiosidades;
     div_text.innerHTML = ""
     div_text.classList.add('active1')
-    if (i === -1) {
-        i = cur.length - 1;
-    }
 
-    console.log(cur)
     setTimeout(() => {
+        if (i === -1) {
+            i = cur.length - 1;
+        }
+
+        console.log(cur)
+
         div_text.innerHTML =
             `<div class="titulo"> <img src="img/CuriosidadeIcon.svg"/>${cur[i].titulo}</div>
         <div class="texto">${cur[i].texto}</div>
@@ -360,7 +362,7 @@ function anterior() {
             div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
         }
         div_text.classList.remove('active1')
-    }, 500)
+    }, 400)
     console.log(i);
 }
 

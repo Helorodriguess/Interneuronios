@@ -76,8 +76,8 @@ aside#menu {
   float: left;
   top: 0;
   height: 100%;
-  min-width: 60%;
-  max-width: 80%;
+  min-width: 90%;
+  max-width: 100%;
   background-color: var(--menu-bg-color);
   transition: visibility 0.5s linear, opacity 0.5s linear;
   visibility: hidden;

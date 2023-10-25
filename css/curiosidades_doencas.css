@@ -25,14 +25,14 @@
 #div_text {
     background-color: #F7D5FA;
     width: 80vw;
-    height: 60vh;
+    height: 56vh;
     border-radius: 40px;
     overflow: auto;
 }
 
 .title {
     width: 90vw;
-    height: 5vh;
+    height: 3vh;
     align-items: center;
     justify-content: center;
     text-align: center;

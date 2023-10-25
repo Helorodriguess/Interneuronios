@@ -47,7 +47,7 @@ const doencas = [
     },
     {
         id: 'glia',
-        nome: 'Célula da glia',
+        nome: 'Célula da Glia',
         doencas: [
             {
                 nome: 'Polineuropatia axonal motora aguda (AMAN) e Guillian-Barré',
@@ -745,7 +745,7 @@ function proximo() {
 
         console.log(i);
         div_text.classList.remove('active1')
-    }, 500)
+    }, 400)
 }
 
 function anterior() {
@@ -774,7 +774,7 @@ function anterior() {
             div_text.innerHTML += `<p class="link">&#9679<a href="${link}"</a>${link}</p>`
         }
         div_text.classList.remove('active1')
-    }, 500)
+    }, 400)
 }
 
 proximo();
