@@ -85,15 +85,16 @@ const desafios = [
 const des = document.getElementById('desafio');
 
 for (let desafio of desafios) {
-    des.innerHTML +=
-        `<div class="nome">${desafio.desafio}</div>
-        <div class="comando">${desafio.comando}</div>
-    `;
+    var html = `<div class="div_desafios"> 
+    <div class="nome">${desafio.desafio}</div>
+    <div class="comando">${desafio.comando}</div>`
+
 
     for (let link of desafio.links) {
-        des.innerHTML +=
+        html +=
             `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>
-    `;
+            </div>`;
     }
-    des.innerHTML += `<hr>`
+
+    des.innerHTML += html;
 }  

@@ -50,13 +50,17 @@ const saude_mental = [
 const sau_men = document.getElementById('saude_mental');
 
 for (let saude of saude_mental) {
-    sau_men.innerHTML +=
-        `<div class="nome">${saude.titulo}</div>
+    var html =
+        `<div class="div_saude_mental">
+        <div class="nome">${saude.titulo}</div>
         <div class="comando">${saude.texto}</div>
     `;
 
     for (let link of saude.links) {
-        sau_men.innerHTML += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
+        html += `<p class="link">&#9679<a href="${link}" target="_blank">${link}</a></p>`
     }
-    sau_men.innerHTML += `<hr>`
-} 
+
+    html += `</div>`
+    sau_men.innerHTML += html
+}
+

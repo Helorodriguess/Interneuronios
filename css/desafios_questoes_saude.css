@@ -210,7 +210,7 @@ dialog {
   margin: 4px;
 }
 
-.red + label {
+.red+label {
   transition: all 0.5s ease-in-out;
   background-color: #ffbebe !important;
   border: solid 1px #cb4d32;
@@ -219,7 +219,7 @@ dialog {
   padding-right: 30px;
 }
 
-.green + label {
+.green+label {
   transition: all 0.5s ease-in-out;
   background-color: #b8ecc3 !important;
   border: solid 1px #7bf600;
@@ -232,7 +232,7 @@ dialog {
   display: none;
 }
 
-.alt input + label::before {
+.alt input+label::before {
   content: "";
   width: 13px;
   height: 13px;
@@ -245,7 +245,7 @@ dialog {
   cursor: pointer;
 }
 
-.alt input:checked + label::before {
+.alt input:checked+label::before {
   background-color: black;
   box-sizing: border-box;
   border: none;
@@ -262,4 +262,10 @@ hr {
 
 .formQuestao {
   border-bottom: solid 1px black;
+}
+
+.div_desafios,
+.div_saude_mental {
+  padding-bottom: 20px;
+  border-bottom: solid 0.7px black;
 }

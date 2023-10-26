@@ -80,7 +80,7 @@ const componentes = [
     },
     {
         id: 'cerebelo',
-        nome: 'Cerebelo.',
+        nome: 'Cerebelo',
         texto: 'O cerebelo está localizado entre a parte posterior do cérebro e a ponte (Fig. X), e conectado ao tálamo, ao tronco encefálico e à medula espinhal por fibras nervosas.  Essa estrutura é responsável por receber informações vindas do encéfalo, em sua maioria de células nervosas, e da medula espinhal, estas podem ser auditivas, visuais e até mesmo das articulações e músculos. Dessa maneira, ele é responsável por ajudar na coordenação de movimentos e postura corporal.',
         imagens: [
             {

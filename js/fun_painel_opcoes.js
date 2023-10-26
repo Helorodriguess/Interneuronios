@@ -21,7 +21,7 @@ const componentesOp = [
     },
     {
         id: 'cerebelo',
-        nome: 'Cerebelo.',
+        nome: 'Cerebelo',
         imagem: 'img/cerebelo/cerebelo2.png'
     },
     {
