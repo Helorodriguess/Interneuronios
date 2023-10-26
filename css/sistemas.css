@@ -1,4 +1,14 @@
 .img_sn {
-  width: 100%;
-  overflow-x: scroll;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.img_snp {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.img_snc {
+    width: 100%;
+    overflow-x: scroll;
 }
