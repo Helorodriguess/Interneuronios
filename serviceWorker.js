@@ -11,7 +11,7 @@ const assets = [
   "o_que_e.html",
   "painel_de_opcoes.html",
   "questoes.html",
-  "resferencias.html",
+  "referencias.html",
   "saude_mental.html",
   "snc.html",
   "snp.html",
@@ -21,14 +21,14 @@ const assets = [
   "img/back.svg",
   "img/bulbo.png",
   "img/chevron-compact-left.svg",
-  "img/ chevron-compact-right.svg",
+  "img/chevron-compact-right.svg",
   "img/CuriosidadeIcon.svg",
   "img/doencaIcon.svg",
-  "img/facicon.gif",
+  "img/favicon.gif",
   "img/home.svg",
-  "img/imag_snc.svg",
+  "img/imag_snc.png",
   "img/information.svg",
-  "img/interneuronios.png",
+  "img/Interneuronios.png",
   "img/lupa.svg",
   "img/menu.svg",
   "img/mesencefalo.png",
@@ -36,12 +36,12 @@ const assets = [
   "img/oQueEIcon.svg",
   "img/puzzle.svg",
   "img/ques32.jpg",
-  "img/ques58.jpg",
+  "img/ques58.png",
   "img/question.svg",
   "img/referencia.svg",
   "img/saude.svg",
   "img/snp.png",
-  "img/snc.png",
+  //"img/snc.png",
   "img/tn.png",
 
   "img/arco/arco0.png",
@@ -60,9 +60,9 @@ const assets = [
   "img/bemvindos/tela3.svg",
   "img/cerebelo/cerebelo.png",
   "img/cerebelo/cerebelo2.png",
-  "img/cerebro/cerebro.png",
-  "img/cerebro/cerebrox.png",
-  "img/cerebro/massacinzenta.png",
+  "img/cerebro/cerebro/cerebro.png",
+  "img/cerebro/cerebro/cerebrox.png",
+  "img/cerebro/cerebro/massacinzenta.png",
   "img/espinal/espinal1.png",
   "img/espinal/espinal2.png",
   "img/espinal/espinal3.png",
@@ -77,8 +77,8 @@ const assets = [
   "img/medula/medula2.png",
   "img/medula/medula3.png",
   "img/medula/medula4.png",
-  "img/meninge/meningens.png",
-  "img/medula/meningens2.png",
+  "img/meninge/meninges.png",
+  //"img/medula/meninges2.png",
   "img/neuronio/neuronio0.png",
   "img/neuronio/neuronio1.png",
   "img/neuronio/neuronio2.png",
@@ -86,12 +86,12 @@ const assets = [
   "img/neuronio/neuronio4.png",
   "img/neuronio/neuronio5.png",
   "img/ponte/tronco0.png",
-  "img/ponte/tronco1.png",
-  "img/ponte/tronco2.png",
+  "img/ponte/tronco1.jpg",
+  "img/ponte/tronco2.jpg",
   "img/sinapse/sinapse1.png",
   "img/sinapse/sinapse2.png",
-  "img/sinapse/sinapse3.png",
-  "img/ponte/sinapse4.png",
+  "img/sinapse/sinapse3.jpg",
+  //"img/ponte/sinapse4.jpg",
   "img/talamo/talamo.png",
   "img/talamo/talamoo.png",
   "img/tutorial/tela_tutorial1.svg",
@@ -104,7 +104,7 @@ const assets = [
   "img/tutorial/tela_tutorial8.svg",
 
   "css/bem_vindos.css",
-  "css/especifico.css",
+  "css/css_especifico.css",
   "css/curiosidades_doencas.css",
   "css/desafios_questoes_saude.css",
   "css/index.css",
@@ -123,15 +123,28 @@ const assets = [
   "js/json_glossario.js",
   "js/json_o_que_e.js",
   "js/json_questoes.js",
-  "js/fun_saude_mental.js",
+  //"js/fun_saude_mental.js",
   "js/main.js",
   "js/user_control.js",
 ];
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
-    caches.open(staticInterneuronios).then((cache) => {
-      cache.addAll(assets);
+    caches.open(staticInterneuronios).then(async (cache) => {
+      try {
+        ok = await cache.addAll(assets);
+      } catch (err) {
+        console.log(err);
+        console.error("sw: cache.addAll");
+        for (let i of assets) {
+          try {
+            ok = await cache.add(i);
+          } catch (err) {
+            console.log(err);
+            console.warn("sw: cache.add", i);
+          }
+        }
+      }
     })
   );
 });
