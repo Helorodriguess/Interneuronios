@@ -5,8 +5,8 @@
   "background_color": "#b989ed",
   "display": "standalone",
   "orientation": "",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/Interneuronios",
+  "start_url": "/Interneuronios",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
