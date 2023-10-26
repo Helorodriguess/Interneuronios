@@ -10,6 +10,7 @@ const assets = [
   "index.html",
   "o_que_e.html",
   "painel_de_opcoes.html",
+  "painel_de_opcoes.html?id=glia",
   "questoes.html",
   "referencias.html",
   "saude_mental.html",
