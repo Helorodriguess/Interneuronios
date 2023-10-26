@@ -1,108 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Interneurônios</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/index.css"
-    />
-    <link rel="stylesheet" href="css/css_especifico.css" />
-    <link rel="stylesheet" href="css/desafios_questoes_saude.css" />
-    <link rel="stylesheet" href="css/tutorial.css" />
-    <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
-  </head>
 
-  <body id="main_div">
-    <header id="global_header">
-      <a id="btn_menu" href="javascript:void(0)">
-        <img src="img/menu.svg" alt="Voltar" id="show_menu" />
-      </a>
-      <h1>Questões</h1>
-    </header>
-    <aside id="menu">
-      <h3>Menu</h3>
-      <ul>
-        <li>
-          <a href="questoes.html">
-            <img src="img/question.svg" alt="Questões" />
-            Questões
-          </a>
-        </li>
-        <li>
-          <a href="desafios.html">
-            <img src="img/puzzle.svg" alt="Desafios" />
-            Desafios
-          </a>
-        </li>
-        <li>
-          <a href="saude_mental.html">
-            <img src="img/saude.svg" alt="Saúde Mental" />
-            Saúde Mental
-          </a>
-        </li>
-        <li>
-          <a href="glossario.html">
-            <img src="img/lupa.svg" alt="Glossário" />
-            Glossário
-          </a>
-        </li>
-        <li>
-          <a href="referencias.html">
-            <img src="img/referencia.svg" alt="Referências" />
-            Referências
-          </a>
-        </li>
-        <li>
-          <a href="Apostila.pdf" target="_blank">
-            <img src="img/anexo.svg" alt="Apostila" />
-            Apostila
-          </a>
-        </li>
-      </ul>
-    </aside>
-    <main id="global_main">
-      <div class="main_div">
-        <div id="questao"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Interneurônios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <link rel="stylesheet" href="css/css_especifico.css" />
+  <link rel="stylesheet" href="css/desafios_questoes_saude.css" />
+  <link rel="stylesheet" href="css/tutorial.css" />
+  <link href="img/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body id="main_div">
+  <header id="global_header">
+    <a id="btn_menu" href="javascript:void(0)">
+      <img src="img/menu.svg" alt="Voltar" id="show_menu" />
+    </a>
+    <h1>Questões</h1>
+  </header>
+  <aside id="menu">
+    <h3>Menu</h3>
+    <ul>
+      <li>
+        <a href="questoes.html">
+          <img src="img/question.svg" alt="Questões" />
+          Questões
+        </a>
+      </li>
+      <li>
+        <a href="desafios.html">
+          <img src="img/puzzle.svg" alt="Desafios" />
+          Desafios
+        </a>
+      </li>
+      <li>
+        <a href="saude_mental.html">
+          <img src="img/saude.svg" alt="Saúde Mental" />
+          Saúde Mental
+        </a>
+      </li>
+      <li>
+        <a href="glossario.html">
+          <img src="img/lupa.svg" alt="Glossário" />
+          Glossário
+        </a>
+      </li>
+      <li>
+        <a href="referencias.html">
+          <img src="img/referencia.svg" alt="Referências" />
+          Referências
+        </a>
+      </li>
+      <li>
+        <a href="Apostila.pdf" target="_blank">
+          <img src="img/anexo.svg" alt="Apostila" />
+          Apostila
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <main id="global_main">
+    <div class="main_div">
+      <div id="questao"></div>
+    </div>
+
+    <dialog id="modal">
+      <p>Resposta</p>
+      <hr />
+      <div id="modalContent"></div>
+      <hr />
+      <div class="btnM">
+        <button onclick="fecharModalQuestao()" class="btnModel">
+          Fechar
+        </button>
       </div>
+    </dialog>
 
-      <dialog id="modal">
-        <p>Resposta</p>
-        <hr />
-        <div id="modalContent"></div>
-        <hr />
-        <div class="btnM">
-          <button onclick="fecharModalQuestao()" class="btnModel">
-            Fechar
-          </button>
-        </div>
-      </dialog>
+    <dialog id="myModal"></dialog>
+  </main>
 
-      <dialog id="myModal"></dialog>
-    </main>
+  <footer id="global_footer">
+    <img src="img/back.svg" alt="Voltar" id="go-back" />
+    <a href="index.html">
+      <img id="ico_home" src="img/home.svg" alt="Página inicial" />
+    </a>
+    <img id="ico_info" src="img/information.svg" alt="Tutorial" onclick="abrirModal()" />
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/fun_questoes.js"></script>
+  <script src="js/fun_tutorial.js"></script>
+</body>
+<script src="js/json_questoes.js"></script>
+<script src="js/json_tutorial.js"></script>
 
-    <footer id="global_footer">
-      <img src="img/back.svg" alt="Voltar" id="go-back" />
-      <a href="index.html">
-        <img id="ico_home" src="img/home.svg" alt="Página inicial" />
-      </a>
-      <img
-        id="ico_info"
-        src="img/information.svg"
-        alt="Tutorial"
-        onclick="abrirModal()"
-      />
-    </footer>
-    <script src="js/main.js"></script>
-    <script src="js/fun_questoes.js"></script>
-    <script src="js/fun_tutorial.js"></script>
-  </body>
-  <script src="js/json_questoes.js"></script>
-  <script src="js/json_tutorial.js"></script>
-  <script src="/js/manifest.json"></script>
-  <script src="/js/serviceWorker.js"></script>
 </html>
