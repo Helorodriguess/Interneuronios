@@ -54,8 +54,8 @@ header#global_header #btn_menu:hover {
 }
 
 footer#global_footer {
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   width: 100%;
   display: flex;
   flex-direction: row;

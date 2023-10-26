@@ -2225,12 +2225,12 @@ const ques = document.getElementById("questao");
 let index = 0;
 for (let questao of questoes) {
   let listaAlternativas = questao.alternativas;
-  var html = `<form action="" class="formQuestao">
+  ques.innerHTML += `
         <div class="nome">${questao.questao}</div>
         <div class="comando">${questao.comando}</div>
         <img src="${questao.imagem}" class="img_ques" />`;
   for (let alternativa of listaAlternativas) {
-    html += `
+    ques.innerHTML += `
         <div class="alt">
         <input type="radio" id="questao${index}${alternativa.letra}" 
         name="questao${index}" 
@@ -2240,12 +2240,11 @@ for (let questao of questoes) {
         </div>
         `;
   }
-  html += `
+  ques.innerHTML += `
     <div class="divBtn">
     <button class="btn" onclick="corrigir('questao${index}')">Responder</button>
     <button type="button" class="btn" data-bs-toggle="modal" onclick="exibirModal(${index})">Ver resposta</button>
-    </div>
-    </form>`;
-  ques.innerHTML += html;
+    </div>`;
+
   index++;
 }
