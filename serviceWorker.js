@@ -190,7 +190,7 @@ const assets = [
   "js/json_glossario.js",
   "js/json_o_que_e.js",
   "js/json_questoes.js",
-  //"js/fun_saude_mental.js",
+  "js/json_saude_mental.js",
   "js/main.js",
   "js/user_control.js",
 ];
